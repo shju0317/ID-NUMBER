@@ -1,10 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
 body {
   color: white;
   background: black;
 }
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
 
 /*# sourceMappingURL=index.css.map */
