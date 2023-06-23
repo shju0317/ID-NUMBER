@@ -18,7 +18,7 @@ module.exports = {
         secondary: "#a6a6a6", //gray3
         body: "#2b2b2b", //gray8
         accent: "#e93945",
-        darkAccent: "#e93945",
+        darkAccent: "#e93945"
       },
     },
   },
