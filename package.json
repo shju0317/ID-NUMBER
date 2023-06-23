@@ -1,12 +1,12 @@
 {
   "name": "project-template",
   "scripts": {
-    "start": "run-p watch server",
-    "sass": "sass src/scss:src/style",
-    "watch": "npm run sass -- --watch",
-    "server": "live-server src",
-    "clear": "rimraf src/style",
-    "build": "postcss src/style/index.css -o src/style/main.css"
+    "start": "run-p tailwind:watch server",
+    "tailwind": "tailwind -i ./src/style/index.css -o ./src/style/style.css",
+    "tailwind:watch": "npm run tailwind -- --watch",
+    "tailwind:build": "npm run tailwind -- --minify",
+    "postcss:build": "postcss ./src/style/index.css -o ./src/style/style.css",
+    "server": "live-server ./src"
   },
   "dependencies": {
     "cssnano": "^6.0.1",
