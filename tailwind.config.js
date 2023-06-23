@@ -20,6 +20,9 @@ module.exports = {
         accent: "#e93945",
         darkAccent: "#e93945"
       },
+      maxWidth: {
+        full: "1920px"
+      }
     },
   },
   plugins: [],

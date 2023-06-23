@@ -12,91 +12,229 @@
 
 <body>
 
-  <!-- 헤더 -->
+  <!--@ 헤더 -->
   <header class="max-w-[1920px] flex gap-5 bg-gray-800">
-    <h1 class="h-[42px] w-[132px] bg-red-300"><a href="#" class="bg-[url('/images/icon-logo.svg')] bg-no-repeat w-full h-full block bg-cover"></a></h1>
+    <h1 class="h-[42px] w-[132px] bg-red-300"><a href="#"
+        class="bg-[url('/images/icon-logo.svg')] bg-no-repeat w-full h-full block bg-cover"></a></h1>
     <ol class="flex items-center gap-3 bg-orange-200">
-      <li><a href="#" class="inline-block h-[28px]"><img src="./images/icon-tv.svg" alt="" class="inline-block -translate-y-[10%] bg-yellow-400 h-[18px]"/><span class="leading-[28px] bg-green-300">실시간</span></a></li>
+      <li><a href="#" class="inline-block h-[28px]"><img src="./images/icon-tv.svg" alt=""
+            class="inline-block -translate-y-[10%] bg-yellow-400 h-[18px]" /><span
+            class="leading-[28px] bg-green-300">실시간</span></a></li>
       <li><a href="#" class="bg-blue-400">TV프로그램</a></li>
       <li><a href="#" class="bg-blue-800">영화</a></li>
       <li><a href="#"><img src="./images/icon-paramount.svg" alt="" /></a></li>
     </ol>
-  <div class="flex ml-auto align-middle">
-    <img src="./images/icon-search.svg" alt="검색" class="h-[bg-yellow-700"/>
-    <img src="./images/profile-4.jpg" alt="마이페이지" class="w-[34px] h-[32px]" />
-  </div>
-</header>
+    <div class="flex ml-auto align-middle">
+      <img src="./images/icon-search.svg" alt="검색" class="h-[bg-yellow-700" />
+      <img src="./images/profile-4.jpg" alt="마이페이지" class="w-[34px] h-[32px]" />
+    </div>
+  </header>
 
-  <!-- 메인 -->
-  <main>
-    <article class="max-w-[1920px] mx-auto max-h-[855px] relative">
-      <figure class="relative">
-        <img src="./images/banner-1.jpg" alt="" class="w-full"/>
-        <figcaption class="absolute top-1/2">
-          인생 2회차를 사는 판타지 드라마
-        </figcaption>
-      </figure>
-      <a href="" class="block h-[10%] bg-yellow-300 absolute">자세히보기</a>
-      <div class="flex absolute top-3/4"> 
-        <button class="mr-2">∥</button>
-        <ol class="flex flex-row gap-1 text-xs text-gray-100">
-          <li><a href="">○</a></li>
-          <li><a href="">●</a></li>
-          <li><a href="">○</a></li>
-          <li><a href="">○</a></li>
-        </ol>
+  <!--@ 아티클 -->
+  <article class="max-w-[1920px] mx-auto max-h-[855px] relative">
+    <figure class="relative">
+      <img src="./images/banner-1.jpg" alt="" class="w-full" />
+      <figcaption class="absolute top-1/2">
+        인생 2회차를 사는 판타지 드라마
+      </figcaption>
+    </figure>
+    <a href="" class="block h-[10%] absolute">자세히보기</a>
+    <div class="flex absolute top-3/4">
+      <button class="mr-2">∥</button>
+      <ol class="flex flex-row gap-1 text-xs text-gray-100">
+        <li><a href="">○</a></li>
+        <li><a href="">●</a></li>
+        <li><a href="">○</a></li>
+        <li><a href="">○</a></li>
+      </ol>
+    </div>
+  </article>
+
+  <br />
+  <br />
+  <br />
+  <br />
+  <br />
+
+  <!--@ 메인 -->
+  <main class="px-[70px] max-w-full mx-auto text-xl">
+    <!--$첫번째 줄-->
+    <section>
+      <h1 class="text-3xl mb-3">티빙에서 꼭 봐야하는 콘텐츠</h1>
+      <div class="flex gap-4 pb-9">
+        <a href="#" target="_blank" title="털사 킹">
+          <figure>
+            <img src="./images/contents-1.jpg" alt="털사 킹 포스터" />
+            <figcaption class="mt-2">털사 킹</figcaption>
+          </figure>
+        </a>
+
+        <a href="#" target="_blank" title="러브캐처 인 발리">
+          <figure>
+            <img src="./images/contents-2.jpg" alt="러브캐처 인 발리 포스터" />
+            <figcaption class="mt-2">러브캐처 인 발리</figcaption>
+          </figure>
+        </a>
+
+        <a href="#" target="_blank" title="보물찾기">
+          <figure>
+            <img src="./images/contents-3.jpg" alt="보물찾기 포스터" />
+            <figcaption class="mt-2">보물찾기</figcaption>
+          </figure>
+        </a>
+        
+        <a href="#" target="_blank" title="블랙독">
+          <figure>
+            <img src="./images/contents-4.jpg" alt="블랙독 포스터" />
+            <figcaption class="mt-2">블랙독</figcaption>
+          </figure>
+        </a>
+
+        <a href="#" target="_blank" title="술꾼도시여자들2">
+          <figure>
+            <img src="./images/contents-5.jpg" alt="술꾼도시여자들2 포스터" />
+            <figcaption class="mt-2">술꾼도시여자들2</figcaption>
+          </figure>
+        </a>
+
+        <a href="#" target="_blank" title="아무것도 하고 싶지 않아">
+          <figure>
+            <img src="./images/contents-6.jpg" alt="아무것도 하고 싶지 않아 포스터" />
+            <figcaption class="mt-2">아무것도 하고 싶지 않아</figcaption>
+          </figure>
+        </a>
+
+        <a href="#" target="_blank" title="우리들의 블루스">
+          <figure>
+            <img src="./images/contents-7.jpg" alt="우리들의 블루스 포스터" />
+            <figcaption class="mt-2">우리들의 블루스</figcaption>
+          </figure>
+        </a>
       </div>
-    </article>
+    </section>
+
+    <!--$두번째 줄-->
+    <section>
+      <h1 class="text-3xl mb-3">Quick VOD</h1>
+      <div class="flex gap-4 pb-9">
+        <figure>
+          <a href="#" target="_blank" title="JTBC뉴스룸">
+            <img src="./images/quick-1.jpg" alt="JTBC뉴스룸 포스터" />
+            <dl>
+              <dt class="sr-only">제목</dt>
+              <dl class="mt-2 text-primary">JTBC뉴스룸</dl>
+              <dt class="sr-only">회차</dt>
+              <dl class="mt-1 text-secondary">0화</dl>
+            </dl>
+          </a>
+        </figure>
+
+        <figure>
+          <a href="#" target="_blank" title="휴먼다큐 &lt;나는살기로 했다&gt;">
+            <img src="./images/quick-2.jpg" alt="나는살기로 했다 포스터" />
+            <dl>
+              <dt class="sr-only">제목</dt>
+              <dl class="mt-2 text-primary">휴먼다큐 &lt;나는살기로 했다&gt;</dl>
+              <dt class="sr-only">회차</dt>
+              <dl class="mt-1 text-secondary">10화</dl>
+            </dl>
+          </a>
+        </figure>
+
+        <figure>
+          <a href="#" target="_blank" title="건강면세점">
+            <img src="./images/quick-3.jpg" alt="건강면세점 포스터" />
+            <dl>
+              <dt class="sr-only">제목</dt>
+              <dl class="mt-2 text-primary">건강면세점</dl>
+              <dt class="sr-only">회차</dt>
+              <dl class="mt-1 text-secondary">130화</dl>
+            </dl>
+          </a>
+        </figure>
+
+        <figure>
+          <a href="#" target="_blank" title="차이나는 클라스">
+            <img src="./images/quick-4.jpg" alt="차이나는 클라스 포스터" />
+            <dl>
+              <dt class="sr-only">제목</dt>
+              <dl class="mt-2 text-primary">차이나는 클라스</dl>
+              <dt class="sr-only">회차</dt>
+              <dl class="mt-1 text-secondary">254화</dl>
+            </dl>
+          </a>
+        </figure>
+        
+        <figure>
+          <a href="#" target="_blank" title="알맹이">
+            <img src="./images/quick-5.jpg" alt="알맹이 포스터" />
+            <dl>
+              <dt class="sr-only">제목</dt>
+              <dl class="mt-2 text-primary">알맹이</dl>
+              <dt class="sr-only">회차</dt>
+              <dl class="mt-1 text-secondary">208화</dl>
+            </dl>
+          </a>
+        </figure>
+      </div>
+    </section>
+
   </main>
 
-  <!-- 푸터 -->
-  <footer class="max-w-7xl px-10">
-    <div class="flex justify-between mb-3">
-      <p>
+
+
+  <!--@ 푸터 -->
+  <footer class="max-w-full px-[68px] mx-auto pt-[140px] pb-[170px] text-xl">
+    <div class="flex justify-between mb-[27px]">
+      <p class="text-gray5">
         공지사항
-        <a href="#" class="ml-2">[안내] 합병보고 주주총회에 갈음하는 공고</a>
+        <a href="#" class="text-primary ml-5">[안내] 합병보고 주주총회에 갈음하는 공고</a>
       </p>
       <span>
-        <a href="#">브랜드 바로가기 +</a> | 
-        <a href="#">그룹 계열사 바로가기 +</a>
+        <a href="#" class="mr-3 text-primary" title="브랜드 바로가기" target="_blank">브랜드 바로가기 + </a> |
+        <a href="#" class="ml-3 text-primary" title="그룹 계열사 바로가기" target="_blank">그룹 계열사 바로가기 + </a>
       </span>
     </div>
-    <hr />
-    <div>
-      <ol class="flex my-3">
-        <li class="mr-4"><a href="#">고객센터</a></li>
-        <li class="mr-4"><a href="#">이용약관</a></li>
-        <li class="mr-4"><a href="#">개인정보처리방침</a></li>
-        <li class="mr-4"><a href="#">청소년 보호정책</a></li>
-        <li class="mr-4"><a href="#">법적고지</a></li>
-        <li class="mr-4"><a href="#">이벤트</a></li>
-        <li><a href="#">인재채용</a></li>
+    <div class="border-t border-t-gray5">
+      <ol class="flex mt-[27px] mb-[24px]">
+        <li class="mr-4"><a href="#" title="고객센터" target="_blank">고객센터</a></li>
+        <li class="mr-4"><a href="#" title="이용약관" target="_blank">이용약관</a></li>
+        <li class="mr-4"><a href="#" title="개인정보처리방침" target="_blank">개인정보처리방침</a></li>
+        <li class="mr-4"><a href="#" title="청소년 보호정책" target="_blank">청소년 보호정책</a></li>
+        <li class="mr-4"><a href="#" title="법적고지" target="_blank">법적고지</a></li>
+        <li class="mr-4"><a href="#" title="이벤트" target="_blank">이벤트</a></li>
+        <li><a href="#" title="인재채용" target="_blank">인재채용</a></li>
       </ol>
     </div>
 
-    <p>
-    <address class="not-italic leading-6">
-      대표이사 : YANG JIEUL | <a href="" class="underline">사업자정보확인</a>
+    <address class="not-italic text-gray5">
+      대표이사 : YANG JIEUL | <a href="" class="underline" title="사업자정보확인" target="_blank">사업자정보확인</a> |
       사업자등록번호: 188-88-01893 |
       통신판매신고번호 : 2020-서울마포-3641호<br />
       사업장: 서울특별시 마포구 상암산로 34, DMC디지털큐브 15층(상암동) |
-      호스팅사업자 : 씨제이올리브네트웍스(주)<br />
+      호스팅사업자 : 씨제이올리브네트웍스(주) <br />
     </address>
-    <a href="" class="underline leading-7">고객문의 바로가기</a> |
-    <a href="" class="underline leading-8">대표메일 : tving@cj.net</a> |
-    <a href="" class="underline leading-9">고객센터 : 1670-1525 (평일/주말 09시~18시, 공휴일 휴무)</a> <br />
-    ENM 시청자 상담실 (편성 문의 및 시청자 의견) : 080-080-0780 | 
-    Mnet 고객센터(방송편성문의) : 1855-1631
+    <p class="text-gray5">
+      <a href="#" class="underline" title="고객문의 바로가기" target="_blank">고객문의 바로가기</a> |
+      <a href="mailto:tving@cj.net" class="underline" title="대표메일" target="_blank">대표메일 : tving@cj.net</a> |
+      <a href="#" class="underline" title="고객센터" target="_blank">고객센터 : 1670-1525 (평일/주말 09시~18시, 공휴일 휴무)</a> <br />
+      ENM 시청자 상담실 (편성 문의 및 시청자 의견) : 080-080-0780 |
+      Mnet 고객센터(방송편성문의) : 1855-1631
     </p>
 
-    <div class="flex gap-5 my-5">
-      <img src="images/icon-Youtube.svg" alt="" />
-      <img src="images/icon-Instragram.svg" alt="" />
-      <img src="images/icon-Twitter.svg" alt="" />
-      <img src="images/icon-Facebook.svg" alt="" />
+    <!-- 아이콘 링크 -->
+    <div class="flex gap-5 my-6">
+      <a href="www.youtube.com" title="youtube" target="_blank"><img src="images/icon-Youtube.svg" alt="유튜브 링크"
+          class="w-[52px] h-[52px]" /></a>
+      <a href="www.instagram.com" title="Instagram" target="_blank"><img src="images/icon-Instragram.svg" alt="인스타 링크"
+          class="w-[52px] h-[52px]" /></a>
+      <a href="www.twitter.com" title="Instagram" target="_blank"><img src="images/icon-Twitter.svg" alt="트위터 링크"
+          class="w-[52px] h-[52px]" /></a>
+      <a href="www.facebook.com" title="Instagram" target="_blank"><img src="images/icon-Facebook.svg" alt="페이스북 링크"
+          class="w-[52px] h-[52px]" /></a>
     </div>
 
-    <small>Copyright &copy; 주식회사 티빙 All right reserved.</small>
+    <small class="text-gray5">Copyright &copy; 주식회사 티빙 All right reserved.</small>
   </footer>
 </body>
 
