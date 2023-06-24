@@ -57,11 +57,11 @@
   <br />
 
   <!--@ 메인 -->
-  <main class="px-[70px] max-w-full mx-auto text-xl">
+  <main class="px-[70px] max-w-full mx-auto">
     <!--$첫번째 줄-->
     <section>
-      <h1 class="text-3xl mb-3">티빙에서 꼭 봐야하는 콘텐츠</h1>
-      <div class="flex gap-4 pb-9">
+      <h1 class="mb-3 font__clamp mobile:text-left tablet:text-center desktop:text-right">티빙에서 꼭 봐야하는 콘텐츠</h1>
+      <div class="flex gap-4 pb-9 overflow-hidden min-w-[760px]">
         <a href="#" target="_blank" title="털사 킹">
           <figure>
             <img src="./images/contents-1.jpg" alt="털사 킹 포스터" />
@@ -114,17 +114,17 @@
     </section>
 
     <!--$두번째 줄-->
-    <section>
+    <section class="w-[1000px] overflow-hidden">
       <h1 class="text-3xl mb-3">Quick VOD</h1>
-      <div class="flex gap-4 pb-9">
+      <div class="flex gap-4 pb-9 overflow-hidden min-w-[1000px]">
         <figure>
           <a href="#" target="_blank" title="JTBC뉴스룸">
             <img src="./images/quick-1.jpg" alt="JTBC뉴스룸 포스터" />
             <dl>
               <dt class="sr-only">제목</dt>
-              <dl class="mt-2 text-primary">JTBC뉴스룸</dl>
+              <dd class="mt-2 text-primary">JTBC뉴스룸</dd>
               <dt class="sr-only">회차</dt>
-              <dl class="mt-1 text-secondary">0화</dl>
+              <dd class="mt-1 text-secondary">0화</dd>
             </dl>
           </a>
         </figure>
@@ -134,9 +134,9 @@
             <img src="./images/quick-2.jpg" alt="나는살기로 했다 포스터" />
             <dl>
               <dt class="sr-only">제목</dt>
-              <dl class="mt-2 text-primary">휴먼다큐 &lt;나는살기로 했다&gt;</dl>
+              <dd class="mt-2 text-primary">휴먼다큐 &lt;나는살기로 했다&gt;</dd>
               <dt class="sr-only">회차</dt>
-              <dl class="mt-1 text-secondary">10화</dl>
+              <dd class="mt-1 text-secondary">10화</dd>
             </dl>
           </a>
         </figure>
@@ -146,9 +146,9 @@
             <img src="./images/quick-3.jpg" alt="건강면세점 포스터" />
             <dl>
               <dt class="sr-only">제목</dt>
-              <dl class="mt-2 text-primary">건강면세점</dl>
+              <dd class="mt-2 text-primary">건강면세점</dd>
               <dt class="sr-only">회차</dt>
-              <dl class="mt-1 text-secondary">130화</dl>
+              <dd class="mt-1 text-secondary">130화</dd>
             </dl>
           </a>
         </figure>
@@ -158,9 +158,9 @@
             <img src="./images/quick-4.jpg" alt="차이나는 클라스 포스터" />
             <dl>
               <dt class="sr-only">제목</dt>
-              <dl class="mt-2 text-primary">차이나는 클라스</dl>
+              <dd class="mt-2 text-primary">차이나는 클라스</dd>
               <dt class="sr-only">회차</dt>
-              <dl class="mt-1 text-secondary">254화</dl>
+              <dd class="mt-1 text-secondary">254화</dd>
             </dl>
           </a>
         </figure>
@@ -170,9 +170,9 @@
             <img src="./images/quick-5.jpg" alt="알맹이 포스터" />
             <dl>
               <dt class="sr-only">제목</dt>
-              <dl class="mt-2 text-primary">알맹이</dl>
+              <dd class="mt-2 text-primary">알맹이</dd>
               <dt class="sr-only">회차</dt>
-              <dl class="mt-1 text-secondary">208화</dl>
+              <dd class="mt-1 text-secondary">208화</dd>
             </dl>
           </a>
         </figure>
@@ -180,7 +180,6 @@
     </section>
 
   </main>
-
 
 
   <!--@ 푸터 -->
