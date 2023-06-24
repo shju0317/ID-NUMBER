@@ -22,6 +22,11 @@ module.exports = {
       },
       maxWidth: {
         full: "1920px"
+      },
+      screens: {
+        mobile: {'min': '320px', 'max': '767px'},
+        tablet: {'min': '768px', 'max': '1199px'},
+        desktop: {'min': '1200px', 'max': '1920px'}
       }
     },
   },

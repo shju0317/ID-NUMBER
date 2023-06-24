@@ -5,6 +5,12 @@
 body {
   color: #c4c4c4;
   background: #2b2b2b;
+  font-size: clamp(0.75rem, 0.6rem + 0.75vw, 1.5rem);
+}
+
+/* 폰트 사이즈 */
+.font__clamp {  
+  font-size: clamp(0.75rem, 0.6rem + 0.75vw, 1.5rem);
 }
 
 /*# sourceMappingURL=index.css.map */
