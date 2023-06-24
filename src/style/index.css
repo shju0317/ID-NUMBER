@@ -8,9 +8,8 @@ body {
   font-size: clamp(0.75rem, 0.6rem + 0.75vw, 1.5rem);
 }
 
-/* 폰트 사이즈 */
-.font__clamp {  
-  font-size: clamp(0.75rem, 0.6rem + 0.75vw, 1.5rem);
+.footer__tablet__size {
+  font-size: clamp(0.75rem, -0.0278rem + 1.6204vw, 1.1875rem);
 }
 
 .scroll::-webkit-scrollbar {
