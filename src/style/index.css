@@ -4,7 +4,7 @@
 
 body {
   color: #c4c4c4;
-  background: #2b2b2b;
+  background: black;
   font-size: clamp(0.75rem, 0.6rem + 0.75vw, 1.5rem);
 }
 
@@ -13,4 +13,7 @@ body {
   font-size: clamp(0.75rem, 0.6rem + 0.75vw, 1.5rem);
 }
 
+.scroll::-webkit-scrollbar {
+  display: none;
+}
 /*# sourceMappingURL=index.css.map */
