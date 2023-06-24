@@ -4,13 +4,12 @@
 
 body {
   color: #c4c4c4;
-  background: #2b2b2b;
+  background: black;
   font-size: clamp(0.75rem, 0.6rem + 0.75vw, 1.5rem);
 }
 
-/* 폰트 사이즈 */
-.font__clamp {  
-  font-size: clamp(0.75rem, 0.6rem + 0.75vw, 1.5rem);
+.footer__tablet__size {
+  font-size: clamp(0.75rem, -0.0278rem + 1.6204vw, 1.1875rem);
 }
 
 /*# sourceMappingURL=index.css.map */
