@@ -14,7 +14,7 @@
 
   <!--@ 헤더 -->
   <header
-    class="max-w-[1920px] mx-auto h-[100px] desktop:h-[100px] tablet:h-[56px] mobile:h-[38px] flex gap-12 px-[4.375rem] sticky top-0 bg-black backdrop-blur-lg">
+    class="max-w-[1920px] mx-auto h-[100px] desktop:h-[100px] tablet:h-[56px] mobile:h-[38px] flex gap-12 px-[68px] mobile:px-1 tablet:px-10 desktop:px-[68px] sticky top-0 bg-black backdrop-blur-lg">
     <h1 class="w-[6.875vw] min-w-[46px] max-w-[132px] h-full">
       <a href="#" aria-label="타빙"
         class="block w-full h-full bg-[url('/images/icon-logo.svg')] bg-no-repeat bg-contain bg-center"></a>
@@ -42,39 +42,29 @@
   </header>
 
   <!--@ 아티클 -->
-  <article class="max-w-[1920px] mx-auto max-h-[855px] relative">
+  <article class="max-w-[1920px] min-w-[320px] mx-auto max-h-[855px] relative">
     <figure class="relative">
-      <img src="./images/banner-1.jpg" alt="" class="w-full" />
-      <figcaption class="absolute bottom-6">
+      <img src="./images/banner-1.jpg" alt="" class=""/>
+      <figcaption class="absolute ml-[70px] mobile:ml-3 tablet:ml-10 bottom-[24.561403508771928%] mobilte:bottom-[18.309859154929578%] tablet:bottom-[24.561403508771928%]">
         인생 2회차를 사는 판타지 드라마
       </figcaption>
     </figure>
-    <a href="" class="font__clamp text-center block w-[221px] h-[78px] mobile:w-[64px] mobile:h-[27px] tablet:w-[128px] tablet:h-[44px] desktop:w-[221px] desktop:h-[78px] absolute right-0 bottom-0 border">자세히보기</a>
-    <div class="flex w-full justify-between absolute top-1/2">
-      <button><</button>
-      <button>></button>
-    </div>
-    <div class="flex items-center absolute bottom-0">
+    <a href="#" class="block text-center align-middle border rounded-lg absolute right-[68px] mobile:right-3 tablet:right-10 bottom-[20%] mobile:bottom-[10%] tablet:bottom-[20%] w-[220px] h-20 tablet:w-32 tablet:h-11 mobile:w-16 mobile:h-7">자세히보기</a>
+    <button class="absolute top-1/2 left-0 w-[68px] mobile:w-3 tablet:w-10 h-full -translate-y-1/2 text-[4.375vw]">❮</button>
+    <button class="absolute top-1/2 right-0 w-[68px] mobile:w-3 tablet:w-10 h-full -translate-y-1/2 text-[4.375vw]">❯</button>
+    <div class="flex absolute left-[68px] mobile:left-3 tablet:left-10 bottom-[20.116959064327486%] mobile:bottom-[7.746478873239436%] tablet:bottom-[20.46783625730994%]">
       <button class="mr-2 font-bold">∥</button>
-      <ol class="flex flex-row gap-1 text-xs text-gray-100">
-        <li><a href="">○</a></li>
-        <li><a href="">●</a></li>
-        <li><a href="">○</a></li>
-        <li><a href="">○</a></li>
+      <ol class="flex text-gray-100">
+        <li><button>○</button></li>
+        <li><button>●</button></li>
+        <li><button>○</button></li>
+        <li><button>○</button></li>
       </ol>
     </div>
   </article>
 
-  <!--? 아티클 작성후 줄바꿈 태그 삭제 부탁드립니다.  -->
-  <br />
-  <br />
-  <br />
-  <br />
-  <br />
-  <!--? 아티클 작성후 줄바꿈 태그 삭제 부탁드립니다.  -->
-
   <!--@ 메인 -->
-  <main class="pl-[70px] max-w-full mx-auto">
+  <main class="pl-[68px] mobile:pl-1 tablet:pl-10 desktop:pl-[68px] max-w-full mx-auto">
     <!--$ 티빙에서 꼭 봐야하는 콘텐츠 -->
     <section class="overflow-y-hidden scroll">
       <h2 class="mb-3">티빙에서 꼭 봐야하는 콘텐츠</h2>
@@ -243,11 +233,11 @@
     </section>
     
     <!-- 실시간 인기 프로그램 -->
-    <section class="mb-9">
-      <h2 class="mb-3 text-3xl">실시간 인기 프로그램</h2>
-        <ol class="flex gap-4 justify-start overflow-y-hidden max-w-full scroll">
-          <li class="shrink-0 w-[12.5vw] max-w-[240px]">
-            <a href="">
+    <section class="mb-9 overflow-y-hidden scroll">
+      <h2 class="mb-3">실시간 인기 프로그램</h2>
+        <ol class="flex gap-2 desktop:gap-4">
+          <li class="shrink-0 w-[12.5vw] min-w-[92px] max-w-[240px]">
+            <a href="#" target="_self">
               <img src="images/live-1.jpg" alt="황혼: 빛과 그림자"/>
               <div class="flex gap-3" aria-hidden="true">
                 <dl>
@@ -261,23 +251,23 @@
               </div>
             </a>
           </li>
-          <li class="shrink-0 w-[12.5vw] max-w-[240px]">
-            <a href="">
+          <li class="shrink-0 w-[12.5vw] min-w-[92px] max-w-[240px]">
+            <a href="#" target="_self">
               <img src="images/live-2.jpg" alt="놀라운 토요일" />
               <div class="flex gap-3" aria-hidden="true">
                 <dl>
                   <dt class="sr-only">순위</dt>
                   <dd class="italic font-bold text-7xl">2</dd>
                 </dl>
-                <dl>
+                <dl class="shrink-0">
                   <dt class="sr-only">프로그램명</dt>
                   <dd class="text-primary">놀라운 토요일</dd>
                 </dl>
               </div>
             </a>
           </li>
-          <li class="shrink-0 w-[12.5vw] max-w-[240px]">
-            <a href="">
+          <li class="shrink-0 w-[12.5vw] min-w-[92px] max-w-[240px]">
+            <a href="#" target="_self">
               <img src="images/live-3.jpg" alt="러브캐처 인 발리" />
               <div class="flex gap-3" aria-hidden="true">
                   <dl>
@@ -291,8 +281,8 @@
               </div>
             </a>
           </li>
-          <li class="shrink-0 w-[12.5vw] max-w-[240px]">
-            <a href="">
+          <li class="shrink-0 w-[12.5vw] min-w-[92px] max-w-[240px]">
+            <a href="#" target="_self">
               <img src="images/live-4.jpg" alt="SHOW ME THE MONEY 11" />
               <div class="flex gap-3" aria-hidden="true">
                 <dl>
@@ -306,8 +296,8 @@
               </div>
             </a>
           </li>
-          <li class="shrink-0 w-[12.5vw] max-w-[240px]">
-            <a href="">
+          <li class="shrink-0 w-[12.5vw] min-w-[92px] max-w-[240px]">
+            <a href="#" target="_self">
               <img src="images/live-5.jpg" alt="술꾼도시여자들2" />
               <div class="flex gap-3" aria-hidden="true">
                 <dl>
@@ -321,8 +311,8 @@
               </div>
             </a>
           </li>
-          <li class="shrink-0 w-[12.5vw] max-w-[240px]">
-            <a href="">
+          <li class="shrink-0 w-[12.5vw] min-w-[92px] max-w-[240px]">
+            <a href="#" target="_self">
               <img src="images/live-6.jpg" alt="알쓸인잡" />
               <div class="flex gap-3" aria-hidden="true">
                 <dl>
@@ -336,8 +326,8 @@
               </div>
             </a>
           </li>
-          <li class="shrink-0 w-[12.5vw] max-w-[240px]">
-            <a href="">
+          <li class="shrink-0 w-[12.5vw] min-w-[92px] max-w-[240px]">
+            <a href="#" target="_self">
               <img src="images/live-7.jpg" alt="재벌집 막내아들" />
               <div class="flex gap-3" aria-hidden="true">
                 <dl>
@@ -351,8 +341,8 @@
               </div>
             </a>
           </li>
-          <li class="shrink-0 w-[12.5vw] max-w-[240px]">
-            <a href="">
+          <li class="shrink-0 w-[12.5vw] min-w-[92px] max-w-[240px]">
+            <a href="#" target="_self">
               <img src="images/live-8.jpg" alt="캐나다 체크인" />
               <div class="flex gap-3" aria-hidden="true">
                 <dl>
@@ -371,11 +361,11 @@
 
 
     <!-- 인기 LIVE 채널 -->
-    <section>
-      <h2 class="mb-3 text-3xl">인기 LIVE 채널</h2>
-        <ol class="flex gap-4 justify-start overflow-y-hidden max-w-full scroll">
-          <li class="shrink-0 w-[18vw] max-w-[345px]">
-            <a href="">
+    <section class="overflow-y-hidden scroll">
+      <h2 class="mb-3">인기 LIVE 채널</h2>
+        <ol class="flex gap-2 desktop:gap-4">
+          <li class="shrink-0 w-[18vw] min-w-[145px] max-w-[345px]">
+            <a href="#" target="_self">
               <img src="images/channel-1.jpg" alt="JTBC 뉴스룸" />
               <div class="flex gap-[10px]" aria-hidden="true">
                   <dl>
@@ -393,8 +383,8 @@
               </div>
             </a>
           </li>
-          <li class="shrink-0 w-[18vw] max-w-[345px]">
-            <a href="">
+          <li class="shrink-0 w-[18vw] min-w-[145px] max-w-[345px]">
+            <a href="#" target="_self">
               <img src="images/channel-2.jpg" alt="줄 서는 식당 43회" />
               <div class="flex gap-[10px]" aria-hidden="true">
                 <dl>
@@ -412,8 +402,8 @@
             </div>
             </a>
           </li>
-          <li class="shrink-0 w-[18vw] max-w-[345px]">
-            <a href="">
+          <li class="shrink-0 w-[18vw] min-w-[145px] max-w-[345px]">
+            <a href="#" target="_self">
               <img src="images/channel-3.jpg" alt="뉴스가 있는 저녁" />
               <div class="flex gap-[10px]" aria-hidden="true">
                 <dl>
@@ -431,8 +421,8 @@
             </div>
             </a>
           </li>
-          <li class="shrink-0 w-[18vw] max-w-[345px]">
-            <a href="">
+          <li class="shrink-0 w-[18vw] min-w-[145px] max-w-[345px]">
+            <a href="#" target="_self">
               <img src="images/channel-4.jpg" alt="재벌집 막내아들 5화" />
               <div class="flex gap-[10px]" aria-hidden="true">
                 <dl>
@@ -450,8 +440,8 @@
             </div>
             </a>
           </li>
-          <li class="shrink-0 w-[18vw] max-w-[345px]">
-            <a href="">
+          <li class="shrink-0 w-[18vw] min-w-[145px] max-w-[345px]">
+            <a href="#" target="_self">
               <img src="images/channel-5.jpg" alt="뉴스 프라임" />
               <div class="flex gap-[10px]" aria-hidden="true">
                 <dl>
@@ -469,8 +459,8 @@
             </div>
             </a>
           </li>
-          <li class="shrink-0 w-[18vw] max-w-[345px]">
-            <a href="">
+          <li class="shrink-0 w-[18vw] min-w-[145px] max-w-[345px]">
+            <a href="#" target="_self">
               <img src="images/channel-6.jpg" alt="명탐정코난9(자막) 33화" />
               <div class="flex gap-[10px]" aria-hidden="true">
                 <dl>
@@ -545,7 +535,7 @@
 
 
   <!--@ 푸터 -->
-  <footer class="max-w-full px-[68px] mx-auto pt-[140px] pb-[170px] footer__tablet__size">
+  <footer class="max-w-full px-[68px] mobile:px-1 tablet:px-10 desktop:px-[68px] mx-auto pt-[140px] pb-[170px] footer__tablet__size">
     <div class="flex justify-between mb-[27px] mobile:mb-3">
       <p class="text-gray5 mobile:mr-3">
         <span class="mr-5 mobile:block">공지사항</span>
