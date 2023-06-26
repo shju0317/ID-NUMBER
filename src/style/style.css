@@ -588,6 +588,10 @@ video {
   margin-bottom: 0.75rem;
 }
 
+.mb-9 {
+  margin-bottom: 2.25rem;
+}
+
 .mb-\[24px\] {
   margin-bottom: 24px;
 }
@@ -598,10 +602,6 @@ video {
 
 .ml-3 {
   margin-left: 0.75rem;
-}
-
-.ml-5 {
-  margin-left: 1.25rem;
 }
 
 .ml-auto {
@@ -618,6 +618,10 @@ video {
 
 .mr-4 {
   margin-right: 1rem;
+}
+
+.mr-5 {
+  margin-right: 1.25rem;
 }
 
 .mt-1 {
@@ -676,10 +680,6 @@ video {
   max-height: 855px;
 }
 
-.w-\[1000px\] {
-  width: 1000px;
-}
-
 .w-\[14\.8vw\] {
   width: 14.8vw;
 }
@@ -706,10 +706,6 @@ video {
 
 .w-full {
   width: 100%;
-}
-
-.min-w-\[1000px\] {
-  min-width: 1000px;
 }
 
 .min-w-\[139px\] {
@@ -789,6 +785,10 @@ video {
   align-items: center;
 }
 
+.justify-start {
+  justify-content: flex-start;
+}
+
 .justify-between {
   justify-content: space-between;
 }
@@ -799,6 +799,10 @@ video {
 
 .gap-12 {
   gap: 3rem;
+}
+
+.gap-3 {
+  gap: 0.75rem;
 }
 
 .gap-4 {
@@ -903,19 +907,27 @@ video {
   line-height: 2.25rem;
 }
 
+.text-7xl {
+  font-size: 4.5rem;
+  line-height: 1;
+}
+
 .text-base {
   font-size: 1rem;
   line-height: 1.5rem;
 }
 
-.text-xl {
-  font-size: 1.25rem;
-  line-height: 1.75rem;
-}
-
 .text-xs {
   font-size: 0.75rem;
   line-height: 1rem;
+}
+
+.font-bold {
+  font-weight: 700;
+}
+
+.italic {
+  font-style: italic;
 }
 
 .not-italic {
@@ -962,10 +974,8 @@ body {
   font-size: clamp(0.75rem, 0.6rem + 0.75vw, 1.5rem);
 }
 
-/* 폰트 사이즈 */
-
-.font__clamp {
-  font-size: clamp(0.75rem, 0.6rem + 0.75vw, 1.5rem);
+.footer__tablet__size {
+  font-size: clamp(0.75rem, -0.0278rem + 1.6204vw, 1.1875rem);
 }
 
 .scroll::-webkit-scrollbar {
@@ -973,6 +983,26 @@ body {
 }
 
 @media (min-width: 320px) and (max-width: 767px) {
+  .mobile\:mb-3 {
+    margin-bottom: 0.75rem;
+  }
+
+  .mobile\:mr-3 {
+    margin-right: 0.75rem;
+  }
+
+  .mobile\:mt-2 {
+    margin-top: 0.5rem;
+  }
+
+  .mobile\:mt-3 {
+    margin-top: 0.75rem;
+  }
+
+  .mobile\:block {
+    display: block;
+  }
+
   .mobile\:hidden {
     display: none;
   }
@@ -981,12 +1011,16 @@ body {
     height: 38px;
   }
 
-  .mobile\:gap-2 {
-    gap: 0.5rem;
+  .mobile\:flex-col {
+    flex-direction: column;
   }
 
-  .mobile\:text-left {
-    text-align: left;
+  .mobile\:gap-1 {
+    gap: 0.25rem;
+  }
+
+  .mobile\:gap-2 {
+    gap: 0.5rem;
   }
 }
 
@@ -994,18 +1028,10 @@ body {
   .tablet\:h-\[56px\] {
     height: 56px;
   }
-
-  .tablet\:text-center {
-    text-align: center;
-  }
 }
 
 @media (min-width: 1200px) and (max-width: 1920px) {
   .desktop\:h-\[100px\] {
     height: 100px;
-  }
-
-  .desktop\:text-right {
-    text-align: right;
   }
 }
