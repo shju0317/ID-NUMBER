@@ -21,4 +21,8 @@ h2 {
   @apply font-bold;
   @apply leading-[140%];
 }
+
+.header-gradient {
+  background: linear-gradient(#000, transparent);
+}
 /*# sourceMappingURL=index.css.map */
