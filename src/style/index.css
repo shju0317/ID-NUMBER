@@ -21,4 +21,9 @@ h2 {
   @apply font-bold;
   @apply leading-[140%];
 }
+
+html {
+  overflow-x: hidden;
+}
+
 /*# sourceMappingURL=index.css.map */
