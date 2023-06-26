@@ -33,5 +33,14 @@ h2 {
 .form-input:focus{
   border: 2px solid #ff153c;
 }
+
+.login-title{
+  font-size: clamp(1rem, 0.725rem + 1.375vw, 2.375rem);
+}
+
+.login-txt{
+  font-size: clamp(0.75rem, 0.55rem + 1vw, 1.75rem);
+}
+
 /*# sourceMappingURL=index.css.map */
 
