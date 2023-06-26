@@ -4,10 +4,12 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>main page</title>
+  <title>TAING</title>
+  <meta name="description" content="타잉 오리지널 콘텐츠, 방송, 영화, 해외시리즈까지! 재미를 플레이해보세요.">
   <!-- <link rel="stylesheet" as="style" crossorigin
     href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.7/dist/web/static/pretendard-dynamic-subset.css" /> -->
   <link rel="stylesheet" href="./style/style.css" />
+  <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon" />
 </head>
 
 <body>
@@ -54,14 +56,10 @@
         인생 2회차를 사는 판타지 드라마
       </figcaption>
     </figure>
-    <a href="#"
-      class="block text-center align-middle border rounded-lg absolute right-[68px] mobile:right-3 tablet:right-10 bottom-[20%] mobile:bottom-[10%] tablet:bottom-[20%] w-[220px] h-20 tablet:w-32 tablet:h-11 mobile:w-16 mobile:h-7">자세히보기</a>
-    <button
-      class="absolute top-1/2 left-0 w-[68px] mobile:w-3 tablet:w-10 h-full -translate-y-1/2 text-[4.375vw]">❮</button>
-    <button
-      class="absolute top-1/2 right-0 w-[68px] mobile:w-3 tablet:w-10 h-full -translate-y-1/2 text-[4.375vw]">❯</button>
-    <div
-      class="flex absolute left-[68px] mobile:left-3 tablet:left-10 bottom-[20.116959064327486%] mobile:bottom-[7.746478873239436%] tablet:bottom-[20.46783625730994%]">
+    <a href="#" class="block text-secondary text-center align-middle border border-secondary rounded-lg absolute right-[68px] mobile:right-3 tablet:right-10 bottom-[20%] mobile:bottom-[10%] tablet:bottom-[20%] w-[220px] h-20 tablet:w-32 tablet:h-11 mobile:w-16 mobile:h-7 leading-[80px] tablet:leading-[44px] mobile:leading-7">자세히보기</a>
+    <button class="text-gray4 absolute top-1/2 left-0 w-[68px] mobile:w-3 tablet:w-10 h-full -translate-y-1/2 text-[4.375vw]">❮</button>
+    <button class="text-gray4 absolute top-1/2 right-0 w-[68px] mobile:w-3 tablet:w-10 h-full -translate-y-1/2 text-[4.375vw]">❯</button>
+    <div class="flex absolute left-[68px] mobile:left-3 tablet:left-10 bottom-[20.116959064327486%] mobile:bottom-[7.746478873239436%] tablet:bottom-[20.46783625730994%]">
       <button class="mr-2 font-bold">∥</button>
       <ol class="flex text-gray-100">
         <li><button>○</button></li>
@@ -75,8 +73,8 @@
   <!--@ 메인 -->
   <main class="pl-[68px] mobile:pl-1 tablet:pl-10 desktop:pl-[68px] max-w-full mx-auto">
     <!--$ 티빙에서 꼭 봐야하는 콘텐츠 -->
-    <h2 class="mb-3">티빙에서 꼭 봐야하는 콘텐츠</h2>
     <section>
+      <h2 class="mb-3">티빙에서 꼭 봐야하는 콘텐츠</h2>
       <ol class="flex desktop:gap-4 pb-9 gap-2 overflow-y-hidden scroll">
         <li>
           <a href="#" target="_blank" title="털사 킹">
@@ -252,155 +250,140 @@
             </figure>
           </a>
         </li>
+        
+        <li>
+          <a href="#" target="_blank" title="엄마의 봄날" >
+          <figure class="w-[17.96875vw] min-w-[145px] max-w-[345px]">
+              <img src="./images/quick-6.jpg" alt="엄마의 봄날 포스터" />
+              <ul class="flex">
+              <li>
+                <p class="italic font-bold"><span class="sr-only">순위</span>1</p>
+              </li>
+              <li>
+                <p><span class="sr-only">프로그램명</span>황혼: 빛과 그림자</p>
+              </li>           
+              </ul>
+            </figure>
+          </a>
+        </li>
+
       </ol>
     </section>
 
     <!-- 실시간 인기 프로그램 -->
-    <section class="mb-9 overflow-y-hidden scroll">
+    <section class="mb-9">
       <h2 class="mb-3">실시간 인기 프로그램</h2>
-        <ol class="flex gap-2 desktop:gap-4">
-          <li class="shrink-0 w-[12.5vw] min-w-[92px] max-w-[240px]">
+        <ol class="flex gap-2 desktop:gap-4 overflow-y-hidden scroll">
+          <li class="shrink-0 w-[12.5vw] min-w-[92px] max-w-[240px] relative">
             <a href="#" target="_self">
               <img src="images/live-1.jpg" alt="황혼: 빛과 그림자"/>
-              <div class="flex gap-3" aria-hidden="true">
-                <dl>
-                  <dt aria-label="순위"></dt>
-                  <dd class="italic font-bold text-7xl">1</dd>
-                </dl>
-                <dl>
-                  <dt aria-label="프로그램명"></dt>
-                  <dd>황혼: 빛과 그림자</dd>
-                </dl>
-              </div>
+              <dl>
+                <dt aria-label="순위"></dt>
+                <dd class="absolute left-0 top-0 italic font-bold text-rank leading-none bg-darkAccent">1</dd>
+                <dt aria-label="프로그램명"></dt>
+                <dd class="text-primary text-title">황혼: 빛과 그림자</dd>
+              </dl>
             </a>
           </li>
-          <li class="shrink-0 w-[12.5vw] min-w-[92px] max-w-[240px]">
+          <li class="shrink-0 w-[12.5vw] min-w-[92px] max-w-[240px] relative">
             <a href="#" target="_self">
               <img src="images/live-2.jpg" alt="놀라운 토요일" />
-              <div class="flex gap-3" aria-hidden="true">
-                <dl>
-                  <dt aria-label="순위"></dt>
-                  <dd class="italic font-bold text-7xl">2</dd>
-                </dl>
-                <dl class="shrink-0">
-                  <dt aria-label="프로그램명"></dt>
-                  <dd class="text-primary">놀라운 토요일</dd>
-                </dl>
-              </div>
+              <dl>
+                <dt aria-label="순위"></dt>
+                <dd class="absolute left-0 top-0 italic font-bold text-rank leading-none bg-darkAccent">2</dd>
+                <dt aria-label="프로그램명"></dt>
+                <dd class="text-primary text-title">놀라운 토요일</dd>
+              </dl>
             </a>
           </li>
-          <li class="shrink-0 w-[12.5vw] min-w-[92px] max-w-[240px]">
+          <li class="shrink-0 w-[12.5vw] min-w-[92px] max-w-[240px] relative">
             <a href="#" target="_self">
               <img src="images/live-3.jpg" alt="러브캐처 인 발리" />
-              <div class="flex gap-3" aria-hidden="true">
-                  <dl>
-                    <dt aria-label="순위"></dt>
-                    <dd class="italic font-bold text-7xl">3</dd>
-                  </dl>
-                  <dl>
-                    <dt aria-label="프로그램명"></dt>
-                    <dd class="text-primary">러브캐처 인 발리</dd>
-                  </dl>
-              </div>
+                <dl>
+                  <dt aria-label="순위"></dt>
+                  <dd class="absolute left-0 top-0 italic font-bold text-rank leading-none bg-darkAccent">3</dd>
+                  <dt aria-label="프로그램명"></dt>
+                  <dd class="text-primary text-title">러브캐처 인 발리</dd>
+                </dl>
             </a>
           </li>
-          <li class="shrink-0 w-[12.5vw] min-w-[92px] max-w-[240px]">
+          <li class="shrink-0 w-[12.5vw] min-w-[92px] max-w-[240px] relative">
             <a href="#" target="_self">
               <img src="images/live-4.jpg" alt="SHOW ME THE MONEY 11" />
-              <div class="flex gap-3" aria-hidden="true">
-                <dl>
-                  <dt aria-label="순위"></dt>
-                  <dd class="italic font-bold text-7xl">4</dd>
-                </dl>
-                <dl>
-                  <dt aria-label="프로그램명"></dt>
-                  <dd class="text-primary">SHOW ME THE MONEY 11</dd>
-                </dl>
-              </div>
+              <dl>
+                <dt aria-label="순위"></dt>
+                <dd class="absolute left-0 top-0 italic font-bold text-rank leading-none bg-darkAccent">4</dd>
+                <dt aria-label="프로그램명"></dt>
+                <dd class="text-primary text-title">SHOW ME THE MONEY 11</dd>
+              </dl>
             </a>
           </li>
-          <li class="shrink-0 w-[12.5vw] min-w-[92px] max-w-[240px]">
+          <li class="shrink-0 w-[12.5vw] min-w-[92px] max-w-[240px] relative">
             <a href="#" target="_self">
               <img src="images/live-5.jpg" alt="술꾼도시여자들2" />
-              <div class="flex gap-3" aria-hidden="true">
-                <dl>
-                  <dt aria-label="순위"></dt>
-                  <dd class="italic font-bold text-7xl">5</dd>
-                </dl>
-                <dl>
-                  <dt aria-label="프로그램명"></dt>
-                  <dd class="text-primary">술꾼도시여자들2</dd>
-                </dl>
-              </div>
+              <dl>
+                <dt aria-label="순위"></dt>
+                <dd class="absolute left-0 top-0 italic font-bold text-rank leading-none bg-darkAccent">5</dd>
+                <dt aria-label="프로그램명"></dt>
+                <dd class="text-primary text-title">술꾼도시여자들2</dd>
+              </dl>
             </a>
           </li>
-          <li class="shrink-0 w-[12.5vw] min-w-[92px] max-w-[240px]">
+          <li class="shrink-0 w-[12.5vw] min-w-[92px] max-w-[240px] relative">
             <a href="#" target="_self">
               <img src="images/live-6.jpg" alt="알쓸인잡" />
-              <div class="flex gap-3" aria-hidden="true">
-                <dl>
-                  <dt aria-label="순위"></dt>
-                  <dd class="italic font-bold text-7xl">6</dd>
-                </dl>
-                <dl>
-                  <dt aria-label="프로그램명"></dt>
-                  <dd class="text-primary">알쓸인잡</dd>
-                </dl>
-              </div>
+              <dl>
+                <dt aria-label="순위"></dt>
+                <dd class="absolute left-0 top-0 italic font-bold text-rank leading-none bg-darkAccent">6</dd>
+                <dt aria-label="프로그램명"></dt>
+                <dd class="text-primary text-title">알쓸인잡</dd>
+              </dl>
             </a>
           </li>
-          <li class="shrink-0 w-[12.5vw] min-w-[92px] max-w-[240px]">
+          <li class="shrink-0 w-[12.5vw] min-w-[92px] max-w-[240px] relative">
             <a href="#" target="_self">
               <img src="images/live-7.jpg" alt="재벌집 막내아들" />
-              <div class="flex gap-3" aria-hidden="true">
-                <dl>
-                  <dt aria-label="순위"></dt>
-                  <dd class="italic font-bold text-7xl">7</dd>
-                </dl>
-                <dl>
-                  <dt aria-label="프로그램명"></dt>
-                  <dd class="text-primary">재벌집 막내아들</dd>
-                </dl>
-              </div>
+              <dl>
+                <dt aria-label="순위"></dt>
+                <dd class="absolute left-0 top-0 italic font-bold text-rank leading-none bg-darkAccent">7</dd>
+                <dt aria-label="프로그램명"></dt>
+                <dd class="text-primary text-title">재벌집 막내아들</dd>
+              </dl>
             </a>
           </li>
-          <li class="shrink-0 w-[12.5vw] min-w-[92px] max-w-[240px]">
+          <li class="shrink-0 w-[12.5vw] min-w-[92px] max-w-[240px] relative">
             <a href="#" target="_self">
               <img src="images/live-8.jpg" alt="캐나다 체크인" />
-              <div class="flex gap-3" aria-hidden="true">
-                <dl>
-                  <dt aria-label="순위"></dt>
-                  <dd class="italic font-bold text-7xl">8</dd>
-                </dl>
-                <dl>
-                  <dt aria-label="프로그램명"></dt>
-                  <dd class="text-primary">캐나다 체크인</dd>
-                </dl>
-              </div>
+              <dl>
+                <dt aria-label="순위"></dt>
+                <dd class="absolute left-0 top-0 italic font-bold text-rank leading-none bg-darkAccent">8</dd>
+                <dt aria-label="프로그램명"></dt>
+                <dd class="text-primary text-title">캐나다 체크인</dd>
+              </dl>
             </a>
           </li>
         </ol>
     </section> -->
 
     <!-- 인기 LIVE 채널 -->
-    <section class="overflow-y-hidden scroll">
+    <section>
       <h2 class="mb-3">인기 LIVE 채널</h2>
-        <ol class="flex gap-2 desktop:gap-4">
+        <ol class="flex gap-2 desktop:gap-4 overflow-y-hidden scroll">
           <li class="shrink-0 w-[18vw] min-w-[145px] max-w-[345px]">
             <a href="#" target="_self">
               <img src="images/channel-1.jpg" alt="JTBC 뉴스룸" />
               <div class="flex shrink-0 gap-[10px]" aria-hidden="true">
                   <dl>
                   <dt aria-label="순위"></dt>
-                  <dd class="italic font-bold text-7xl">1</dd>
+                  <dd class="italic font-bold text-rank leading-none">1</dd>
                   </dl>
                   <dl>
-                  <dt aria-label="">채널명</dt>
-                  <dd class="text-primary">JTBC</dd>
+                  <dt aria-label="채널명"></dt>
+                  <dd class="text-title text-primary">JTBC</dd>
                   <dt aria-label="프로그램명"></dt>
-                  <dd class="text-secondary">JTBC 뉴스룸</dd>
+                  <dd class="text-desc text-secondary">JTBC 뉴스룸</dd>
                   <dt aria-label="시청률"></dt>
-                  <dd class="text-gray5">27.9%</dd>
+                  <dd class="text-desc text-gray5">27.9%</dd>
                 </dl>
               </div>
             </a>
@@ -411,15 +394,15 @@
               <div class="flex gap-[10px]" aria-hidden="true">
                 <dl>
                 <dt aria-label="순위"></dt>
-                <dd class="italic font-bold text-7xl">2</dd>
+                <dd class="italic font-bold text-rank leading-none">2</dd>
                 </dl>
                 <dl>
-                <dt aria-label="">채널명</dt>
-                <dd class="text-primary">tvN</dd>
+                <dt aria-label="채널명"></dt>
+                <dd class="text-title text-primary">tvN</dd>
                 <dt aria-label="프로그램명"></dt>
-                <dd class="text-secondary">줄서는 식당 43회</dd>
+                <dd class="text-desc text-secondary">줄서는 식당 43회</dd>
                 <dt aria-label="시청률"></dt>
-                <dd class="text-gray5">26.3%</dd>
+                <dd class="text-desc text-gray5">26.3%</dd>
               </dl>
             </div>
             </a>
@@ -430,15 +413,15 @@
               <div class="flex gap-[10px]" aria-hidden="true">
                 <dl>
                 <dt aria-label="순위"></dt>
-                <dd class="italic font-bold text-7xl">3</dd>
+                <dd class="italic font-bold text-rank leading-none">3</dd>
                 </dl>
                 <dl>
-                <dt aria-label="">채널명</dt>
-                <dd class="text-primary">YTN</dd>
+                <dt aria-label="채널명"></dt>
+                <dd class="text-title text-primary">YTN</dd>
                 <dt aria-label="프로그램명"></dt>
-                <dd class="text-secondary">뉴스가 있는 저녁</dd>
+                <dd class="text-desc text-secondary">뉴스가 있는 저녁</dd>
                 <dt aria-label="시청률"></dt>
-                <dd class="text-gray5">9%</dd>
+                <dd class="text-desc text-gray5">9%</dd>
               </dl>
             </div>
             </a>
@@ -449,15 +432,15 @@
               <div class="flex gap-[10px]" aria-hidden="true">
                 <dl>
                 <dt aria-label="순위"></dt>
-                <dd class="italic font-bold text-7xl">4</dd>
+                <dd class="italic font-bold text-rank leading-none">4</dd>
                 </dl>
                 <dl>
-                <dt aria-label="">채널명</dt>
-                <dd class="text-primary">JTBC2</dd>
+                <dt aria-label="채널명"></dt>
+                <dd class="text-title text-primary">JTBC2</dd>
                 <dt aria-label="프로그램명"></dt>
-                <dd class="text-secondary">재벌집 막내아들 5화</dd>
+                <dd class="text-desc text-secondary">재벌집 막내아들 5화</dd>
                 <dt aria-label="시청률"></dt>
-                <dd class="text-gray5">6.2%</dd>
+                <dd class="text-desc text-gray5">6.2%</dd>
               </dl>
             </div>
             </a>
@@ -468,15 +451,15 @@
               <div class="flex gap-[10px]" aria-hidden="true">
                 <dl>
                 <dt aria-label="순위"></dt>
-                <dd class="italic font-bold text-7xl">5</dd>
+                <dd class="italic font-bold text-rank leading-none">5</dd>
                 </dl>
                 <dl>
-                <dt aria-label="">채널명</dt>
-                <dd class="text-primary">연합뉴스 TV</dd>
+                <dt aria-label="채널명"></dt>
+                <dd class="text-title text-primary">연합뉴스 TV</dd>
                 <dt aria-label="프로그램명"></dt>
-                <dd class="text-secondary">뉴스 프라임</dd>
+                <dd class="text-desc text-secondary">뉴스 프라임</dd>
                 <dt aria-label="시청률"></dt>
-                <dd class="text-gray5">27.9%</dd>
+                <dd class="text-desc text-gray5">27.9%</dd>
               </dl>
             </div>
             </a>
@@ -487,15 +470,15 @@
               <div class="flex gap-[10px]" aria-hidden="true">
                 <dl>
                 <dt aria-label="순위"></dt>
-                <dd class="italic font-bold text-7xl">6</dd>
+                <dd class="italic font-bold text-rank leading-none">6</dd>
                 </dl>
                 <dl>
-                <dt aria-label="">채널명</dt>
-                <dd class="text-primary">애니맥스</dd>
+                <dt aria-label="채널명"></dt>
+                <dd class="text-title text-primary">애니맥스</dd>
                 <dt aria-label="프로그램명"></dt>
-                <dd class="text-secondary">명탐정코난9(자막) 33화</dd>
+                <dd class="text-desc text-secondary">명탐정코난9(자막) 33화</dd>
                 <dt aria-label="시청률"></dt>
-                <dd class="text-gray5">27.9%</dd>
+                <dd class="text-desc text-gray5">27.9%</dd>
               </dl>
             </div>
           </a>
