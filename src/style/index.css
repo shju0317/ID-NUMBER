@@ -15,4 +15,10 @@ body {
 .scroll::-webkit-scrollbar {
   display: none;
 }
+
+h2 {
+  @apply text-[1.48vw];
+  @apply font-bold;
+  @apply leading-[140%];
+}
 /*# sourceMappingURL=index.css.map */
