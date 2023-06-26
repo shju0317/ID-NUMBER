@@ -26,9 +26,9 @@ h2 {
   background: linear-gradient(#000, transparent);
 }
 
-.form-input{
+/* .form-input{
   @apply borderw-full p-4 outline-none;
-}
+} */
 
 .form-input:focus{
   @apply border-black dark:border-secondary;
