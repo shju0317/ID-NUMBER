@@ -23,11 +23,15 @@ h2 {
 }
 
 .form-input{
-  @apply borderw-full p-4 outline-none;
+  border: 2px solid black;
+  width: 100%;
+  padding: 1rem;
+  outline-style: none;
+  background-color: #565656;
 }
 
 .form-input:focus{
-  @apply border-black dark:border-secondary;
+  border: 2px solid #ff153c;
 }
 /*# sourceMappingURL=index.css.map */
 
