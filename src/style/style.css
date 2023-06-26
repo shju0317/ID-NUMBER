@@ -612,6 +612,10 @@ video {
   margin-bottom: 0.75rem;
 }
 
+.mb-9 {
+  margin-bottom: 2.25rem;
+}
+
 .mb-\[24px\] {
   margin-bottom: 24px;
 }
@@ -648,24 +652,16 @@ video {
   margin-right: 1.25rem;
 }
 
-.mt-1 {
-  margin-top: 0.25rem;
-}
-
 .mt-2 {
   margin-top: 0.5rem;
 }
 
-.mt-\[27px\] {
-  margin-top: 27px;
-}
-
-.mb-9 {
-  margin-bottom: 2.25rem;
-}
-
 .mt-3 {
   margin-top: 0.75rem;
+}
+
+.mt-\[27px\] {
+  margin-top: 27px;
 }
 
 .block {
@@ -712,6 +708,10 @@ video {
   width: 12.5vw;
 }
 
+.w-\[14\.8vw\] {
+  width: 14.8vw;
+}
+
 .w-\[17\.96875vw\] {
   width: 17.96875vw;
 }
@@ -748,8 +748,8 @@ video {
   width: 100%;
 }
 
-.w-\[14\.8vw\] {
-  width: 14.8vw;
+.min-w-\[139px\] {
+  min-width: 139px;
 }
 
 .min-w-\[145px\] {
@@ -758,6 +758,10 @@ video {
 
 .min-w-\[18px\] {
   min-width: 18px;
+}
+
+.min-w-\[304px\] {
+  min-width: 304px;
 }
 
 .min-w-\[320px\] {
@@ -776,14 +780,6 @@ video {
   min-width: 92.9px;
 }
 
-.min-w-\[139px\] {
-  min-width: 139px;
-}
-
-.min-w-\[304px\] {
-  min-width: 304px;
-}
-
 .min-w-\[92px\] {
   min-width: 92px;
 }
@@ -796,6 +792,10 @@ video {
   max-width: 132px;
 }
 
+.max-w-\[1780px\] {
+  max-width: 1780px;
+}
+
 .max-w-\[1920px\] {
   max-width: 1920px;
 }
@@ -804,8 +804,16 @@ video {
   max-width: 240px;
 }
 
+.max-w-\[285px\] {
+  max-width: 285px;
+}
+
 .max-w-\[345px\] {
   max-width: 345px;
+}
+
+.max-w-\[346px\] {
+  max-width: 346px;
 }
 
 .max-w-\[40px\] {
@@ -814,18 +822,6 @@ video {
 
 .max-w-full {
   max-width: 1920px;
-}
-
-.max-w-\[1780px\] {
-  max-width: 1780px;
-}
-
-.max-w-\[285px\] {
-  max-width: 285px;
-}
-
-.max-w-\[346px\] {
-  max-width: 346px;
 }
 
 .shrink-0 {
@@ -846,10 +842,6 @@ video {
   align-items: center;
 }
 
-.justify-start {
-  justify-content: flex-start;
-}
-
 .justify-between {
   justify-content: space-between;
 }
@@ -862,6 +854,14 @@ video {
   gap: 0.5rem;
 }
 
+.gap-3 {
+  gap: 0.75rem;
+}
+
+.gap-4 {
+  gap: 1rem;
+}
+
 .gap-5 {
   gap: 1.25rem;
 }
@@ -872,14 +872,6 @@ video {
 
 .gap-\[2vw\] {
   gap: 2vw;
-}
-
-.gap-3 {
-  gap: 0.75rem;
-}
-
-.gap-4 {
-  gap: 1rem;
 }
 
 .overflow-y-hidden {
