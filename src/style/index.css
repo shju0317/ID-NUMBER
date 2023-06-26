@@ -12,6 +12,10 @@ body {
   font-size: clamp(0.75rem, -0.0278rem + 1.6204vw, 1.1875rem);
 }
 
+.text-rank {
+  font-size: clamp(2.125rem, 1.675rem + 2.25vw, 4.375rem);
+}
+
 .scroll::-webkit-scrollbar {
   display: none;
 }
