@@ -11,26 +11,29 @@
 </head>
 
 <body>
-
   <!--@ 헤더 -->
-  <header
-    class="max-w-[1920px] mx-auto h-[100px] desktop:h-[100px] tablet:h-[56px] mobile:h-[38px] flex gap-12 px-[68px] mobile:px-1 tablet:px-10 desktop:px-[68px] sticky top-0 bg-black backdrop-blur-lg">
+  <header class="max-w-[1920px] mx-auto h-[100px] desktop:h-[100px] tablet:h-[56px] mobile:h-[38px] flex gap-12 px-[68px] mobile:px-1 tablet:px-10 desktop:px-[68px] sticky top-0 header-gradient z-10">
     <h1 class="w-[6.875vw] min-w-[46px] max-w-[132px] h-full">
-      <a href="#" aria-label="타빙"
+      <a href="#" aria-label="타잉"
         class="block w-full h-full bg-[url('/images/icon-logo.svg')] bg-no-repeat bg-contain bg-center"></a>
     </h1>
     <ul class="order-2 ml-auto flex items-center gap-[2vw]">
-      <li class="w-[2vw] min-w-[18px] max-w-[40px] col-span-1"><img src="./images/icon-search.svg" alt="검색" /></li>
-      <li class="w-[2vw] min-w-[18px] max-w-[40px] col-start-3 col-end-4"><img src="./images/profile-4.jpg"
-          alt="마이페이지" /></li>
+      <li class="w-[2vw] h-[2vw] min-w-[18px] max-w-[40px]">
+        <button class="block w-full h-full bg-[url('/images/icon-search.svg')] bg-no-repeat bg-cover" aria-label="검색"></button>
+      </li>
+      <li class="w-[2vw] h-[2vw] min-w-[18px] max-w-[40px]">
+        <a href="/" class="block w-full h-full bg-[url('/images/profile-4.jpg')] bg-no-repeat bg-cover rounded" aria-label="마이페이지"></a>
+      </li>
     </ul>
     <nav class="flex items-center mobile:hidden">
       <h2 class="sr-only">메인 메뉴</h2>
       <ol class="flex items-center gap-12">
-        <li>
-          <a href="#" class="inline-block h-[28px] whitespace-nowrap">
-            <img src="./images/icon-tv.svg" alt="" class="inline-block -translate-y-[10%] h-[18px]" />
-            <span class="text-base leading-7">실시간</span>
+        <li class="flex">
+          <a href="#" class="inline-block ">
+            <figure class="flex gap-2 items-center">
+              <img src="./images/icon-tv.svg" alt="" class="translate-y-[-5%]" aria-hidden="true" />
+              <figcaption>실시간</figcaption>
+            </figure>
           </a>
         </li>
         <li><a href="#" class="text-base whitespace-nowrap">TV프로그램</a></li>
@@ -40,6 +43,7 @@
       </ol>
     </nav>
   </header>
+
 
   <!--@ 아티클 -->
   <article class="max-w-[1920px] min-w-[320px] mx-auto max-h-[855px] relative">
@@ -67,8 +71,8 @@
   <!--@ 메인 -->
   <main class="pl-[68px] mobile:pl-1 tablet:pl-10 desktop:pl-[68px] max-w-full mx-auto">
     <!--$ 티빙에서 꼭 봐야하는 콘텐츠 -->
-    <h2 class="mb-3">티빙에서 꼭 봐야하는 콘텐츠</h2>
     <section>
+      <h2 class="mb-3">티빙에서 꼭 봐야하는 콘텐츠</h2>
       <ol class="flex desktop:gap-4 pb-9 gap-2 overflow-y-hidden scroll">
         <li>
           <a href="#" target="_blank" title="털사 킹">
@@ -244,6 +248,23 @@
             </figure>
           </a>
         </li>
+        
+        <li>
+          <a href="#" target="_blank" title="엄마의 봄날" >
+          <figure class="w-[17.96875vw] min-w-[145px] max-w-[345px]">
+              <img src="./images/quick-6.jpg" alt="엄마의 봄날 포스터" />
+              <ul class="flex">
+              <li>
+                <p class="italic font-bold"><span class="sr-only">순위</span>1</p>
+              </li>
+              <li>
+                <p><span class="sr-only">프로그램명</span>황혼: 빛과 그림자</p>
+              </li>           
+              </ul>
+            </figure>
+          </a>
+        </li>
+
       </ol>
     </section>
 
@@ -340,7 +361,7 @@
             </a>
           </li>
         </ol>
-    </section>
+    </section> -->
 
     <!-- 인기 LIVE 채널 -->
     <section>
@@ -349,7 +370,7 @@
           <li class="shrink-0 w-[18vw] min-w-[145px] max-w-[345px]">
             <a href="#" target="_self">
               <img src="images/channel-1.jpg" alt="JTBC 뉴스룸" />
-              <div class="flex gap-[10px]" aria-hidden="true">
+              <div class="flex shrink-0 gap-[10px]" aria-hidden="true">
                   <dl>
                   <dt aria-label="순위"></dt>
                   <dd class="italic font-bold text-rank leading-none">1</dd>
@@ -464,9 +485,9 @@
     </section>
 
     <!--$ 오직 티빙에만 있어요 -->
-    <section class="py-9 overflow-y-hidden scroll">
+    <section class="py-9">
       <h2>오직 티빙에만 있어요</h2>
-      <ul class="mt-3 flex gap-4 mobile:gap-2">
+      <ul class="mt-3 flex gap-4 mobile:gap-2 overflow-y-hidden scroll">
         <li class="shrink-0 w-[14.8vw] min-w-[139px] max-w-[285px]"><a href="#"><img src="./images/only-1.jpg"
               alt="전체관람가:숏버스터" class="rounded-lg" /></a></li>
         <li class="shrink-0 w-[14.8vw] min-w-[139px] max-w-[285px]"><a href="#"><img src="./images/only-2.jpg"
@@ -485,12 +506,12 @@
     </section>
 
     <!--$ 광고 배너 -->
-    <section class="py-9">
+    <section class="py-9 mobile:pr-[8px] tablet:pr-[40px] desktop:pr-[70px] ">
       <h2 class="sr-only">광고</h2>
       <figure class="min-w-[304px] max-w-[1780px]">
         <img src="./images/sports-1.jpg" />
+        <figcaption class="sr-only">타빙 스포츠 경기 생중계 UFC 월드복싱 슈퍼매치 분데스리가 AFC 챔피언스리그</figcaption>
       </figure>
-      <figcaption class="sr-only">타빙 스포츠 경기 생중계 UFC 월드복싱 슈퍼매치 분데스리가 AFC 챔피언스리그</figcaption>
     </section>
 
     <!--$ 이벤트 배너 -->
@@ -572,6 +593,12 @@
 
     <small class="text-gray5">Copyright &copy; 주식회사 티빙 All right reserved.</small>
   </footer>
+
+  </main>
+
+
+
+
 </body>
 
 </html>
