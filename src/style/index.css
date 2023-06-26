@@ -22,9 +22,13 @@ h2 {
   @apply leading-[140%];
 }
 
-.form-input{
-  @apply borderw-full p-4 outline-none;
+.header-gradient {
+  background: linear-gradient(#000, transparent);
 }
+
+/* .form-input{
+  @apply borderw-full p-4 outline-none;
+} */
 
 .form-input:focus{
   @apply border-black dark:border-secondary;
