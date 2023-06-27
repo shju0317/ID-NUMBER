@@ -103,7 +103,14 @@ OTT 서비스 웹사이트를 반응형으로 구현합니다.
 
 # ℹ️ 코드 리뷰 |&nbsp;&nbsp; 메인 페이지
 ## Head
-검색 엔진 최적화 관련 서술
+```html
+<title>TAING</title>
+<meta name="description" content="타잉 오리지널 콘텐츠, 방송, 영화, 해외시리즈까지! 재미를 플레이해보세요.">
+<link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon" />
+```
+- ``title``로 HTML 문서 전체의 제목을 나타냅니다.
+- ``meta``의 ``content``속성으로 검색 엔진에서 해당 사이트의 정보를 표시하고 검색 될 수 있도록 합니다.
+- ``link``의 ``shortcut icon``속성으로 파비콘을 설정하여 꾸며줍니다.
 
 </br>
 
