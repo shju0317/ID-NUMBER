@@ -17,7 +17,7 @@
     px-[68px] mobile:px-1 tablet:px-10 desktop:px-[68px] 
     sticky top-0 bg-black backdrop-blur-lg">
     <h1 class="w-[6.875vw] min-w-[46px] max-w-[132px] h-full">
-      <a href="./index.html" aria-label="타잉"
+      <a href="/index.html" aria-label="타잉"
         class="block w-full h-full bg-[url('/images/icon-logo.svg')] bg-no-repeat bg-contain bg-center"></a>
     </h1>
   </header>
@@ -26,13 +26,13 @@
     <!--@ 회원가입 -->
     <form action="URL" class="text-center mb-12 flex justify-center" method="POST">
       <fieldset class="flex flex-col gap-7 tablet:gap-5 mobile:gap-3 justify-center items-center">
-        <legend class="login-title font-bold mb-7 text-white">타잉 회원가입</legend>
+        <legend class="login__title font-bold mb-7 text-white">타잉 회원가입</legend>
 
         <p class="mb-5 text-gray4">아이디와 이메일로 간편하게 타잉을 시작하세요!</p>
         <!-- 아이디 -->
         <div class="w-[38vw] min-w-[288px] max-w-[732px] h-[5vw] min-h-[46px] max-h-[96px]">
           <label for="userId" class="sr-only">아이디</label>
-          <input id="userId" name="userId" class=" form-input border p-4 outline-none rounded login-txt w-full h-full"
+          <input id="userId" name="userId" class=" form__input border p-4 outline-none rounded login__txt w-full h-full"
             type="text" placeholder="아이디" required />
             <div class="text-left text-gray5 pl-2">영문 또는 영문, 숫자 조합 6~12자리</div>
           </div>
@@ -40,20 +40,20 @@
         <!-- 비밀번호 -->
         <div class="mt-2 w-[38vw] min-w-[288px] max-w-[732px] h-[5vw] min-h-[46px] max-h-[96px]">
           <label for="userPassword" class="sr-only">비밀번호</label>
-          <input id="userPassword" name="userPassword" class="form-input rounded login-txt w-full h-full"
+          <input id="userPassword" name="userPassword" class="form__input rounded login__txt w-full h-full"
             type="password" placeholder="비밀번호" required />
             <div class="text-left text-gray5 pl-2">영문, 숫자, 특수문자(~!@#$%^&*) 조합 8~15자리</div>
         </div>
 
         <div class="mt-2 w-[38vw] min-w-[288px] max-w-[732px] h-[5vw] min-h-[46px] max-h-[96px] relative">
           <label for="userPasswordCheck" class="sr-only">비밀번호 확인</label>
-          <input id="userPasswordCheck" name="userPasswordCheck" class="form-input rounded login-txt w-full h-full"
+          <input id="userPasswordCheck" name="userPasswordCheck" class="form__input rounded login__txt w-full h-full"
             type="password" placeholder="비밀번호 확인" required />
         </div>
 
         <div class="mt-2 w-[38vw] min-w-[288px] max-w-[732px] h-[5vw] min-h-[46px] max-h-[96px]">
           <label for="userEmail" class="sr-only">이메일</label>
-          <input id="userEmail" name="userEmail" class="form-input rounded login-txt w-full h-full"
+          <input id="userEmail" name="userEmail" class="form__input rounded login__txt w-full h-full"
             type="email" placeholder="이메일" required />
         </div>
 
@@ -133,7 +133,7 @@
           </div>
 
           <!--# 가입하기  -->
-          <button type="submit" class="w-[38vw] min-w-[288px] max-w-[732px] h-[4.5vw] min-h-[42px] max-h-[86px] text-gray4 bg-gray7 login-txt rounded mt-4">가입하기</button>
+          <button type="submit" class="w-[38vw] min-w-[288px] max-w-[732px] h-[4.5vw] min-h-[42px] max-h-[86px] text-gray4 bg-gray7 login__txt rounded mt-4">가입하기</button>
         </div>
       </fieldset>
     </form>
