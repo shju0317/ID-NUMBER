@@ -121,6 +121,8 @@ screens: {
 </br>
 
 ## 메인 페이지 section별 횡스크롤
+![scroll-test](https://github.com/M-Moong/ID-NUMBER/assets/105577805/1d760c00-cb87-4bff-ae92-80ce1c0c0ce0)
+
 ```html
 <section>
   <h2>섹션별 제목</h2>
