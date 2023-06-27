@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="ko-KR">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>LOGIN</title>
+  <!-- <link rel="stylesheet" as="style" crossorigin
+    href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.7/dist/web/static/pretendard-dynamic-subset.css" /> -->
+  <link rel="stylesheet" href="./../style/style.css" />
+  <link rel="shortcut icon" href="./../images/favicon.ico" type="image/x-icon" />
+</head>
+
+<body>
+  <!--@ 헤더 -->
+  <header class="max-w-[1920px] mx-auto h-[100px] desktop:h-[100px] tablet:h-[56px] mobile:h-[38px] flex gap-12 
+    px-[68px] mobile:px-1 tablet:px-10 desktop:px-[68px] 
+    sticky top-0 bg-black backdrop-blur-lg">
+    <h1 class="w-[6.875vw] min-w-[46px] max-w-[132px] h-full">
+      <a href="/index.html" aria-label="타잉"
+        class="block w-full h-full bg-[url('/images/icon-logo.svg')] bg-no-repeat bg-contain bg-center"></a>
+    </h1>
+  </header>
+
+  <main>
+    <form action="URL" method="get" class="mt-[60px] mobile:mt-7 tablet:mt-11 mb-[140px] mobile:mb-[52px] tablet:mb-[70px]">
+      <fieldset>
+        <legend class="sr-only">비밀번호 찾기</legend>
+        <h2 class="login__title text-center mb-[60px] mobile:mb-7 tablet:mb-6">비밀번호 찾기</h2>
+        <div class="mx-auto min-w-[288px] w-[49.47916666666667%] max-w-[732px]" aria-hidden="true">
+          <p class="find__txt text-gray4 font-semibold mb-6 mobile:mb-4 tablet:mb-4">아이디 확인 후 등록된 이메일 주소로 비밀번호 재설정을 위한 인증 메일이 발송됩니다. 이메일을 확인하여 12시간 이내에 비밀번호 재설정을 완료해주세요.</p>
+          <label for="userId" class="sr-only">아이디</label>
+          <input id="userId" name="userId" type="text" placeholder="아이디" required class="text-gray6 bg-[#212121] w-full h-24 mobile:h-[46px] tablet:h-[54px] mb-9 mobile:mb-5 tablet:mb-6 px-[3.278688524590164%] rounded"/>
+          <button type="submit" class="text-gray4 font-semibold bg-gray7 w-full h-24 mobile:h-[46px] tablet:h-[54px] rounded">확인</button>
+        </div>
+      </fieldset>
+    </form>
+  </main>
+
+  <!--@ 푸터 -->
+  <footer
+    class="max-w-full px-[68px] mobile:px-4 tablet:px-10 desktop:px-[68px] mx-auto pt-[10%] pb-[5%] footer__tablet__size">
+    
+    <div class="border-t border-t-gray5">
+      <ol class="flex mt-[27px] mb-[24px] mobile:flex-col mobile:gap-1 mobile:my-3">
+        <li class="mr-4"><a href="#" title="고객센터" target="_blank">고객센터</a></li>
+        <li class="mr-4"><a href="#" title="이용약관" target="_blank">이용약관</a></li>
+        <li class="mr-4"><a href="#" title="개인정보처리방침" target="_blank">개인정보처리방침</a></li>
+        <li class="mr-4"><a href="#" title="청소년 보호정책" target="_blank">청소년 보호정책</a></li>
+        <li class="mr-4"><a href="#" title="법적고지" target="_blank">법적고지</a></li>
+        <li class="mr-4"><a href="#" title="이벤트" target="_blank">이벤트</a></li>
+        <li><a href="#" title="인재채용" target="_blank">인재채용</a></li>
+      </ol>
+    </div>
+
+    <div class="mobile:sr-only">
+      <address class="not-italic text-gray5">
+        대표이사 : YANG JIEUL | <a href="" class="underline" title="사업자정보확인" target="_blank">사업자정보확인</a> |
+        사업자등록번호: 188-88-01893 |
+        통신판매신고번호 : 2020-서울마포-3641호<br />
+        사업장: 서울특별시 마포구 상암산로 34, DMC디지털큐브 15층(상암동) |
+        호스팅사업자 : 씨제이올리브네트웍스(주) <br />
+      </address>
+      <p class="text-gray5">
+        <a href="#" class="underline" title="고객문의 바로가기" target="_blank">고객문의 바로가기</a> |
+        <a href="mailto:tving@cj.net" class="underline" title="대표메일" target="_blank">대표메일 : tving@cj.net</a> |
+        <a href="#" class="underline" title="고객센터" target="_blank">고객센터 : 1670-1525 (평일/주말 09시~18시, 공휴일 휴무)</a> <br />
+        ENM 시청자 상담실 (편성 문의 및 시청자 의견) : 080-080-0780 |
+        Mnet 고객센터(방송편성문의) : 1855-1631
+      </p>
+    </div>
+
+    <!-- 아이콘 링크 -->
+    <div class="flex gap-5 my-6 mobile:gap-2 mobile:my-1">
+      <a href="http://www.youtube.com" title="youtube" target="_blank" class="mobile:w-8"><img src="/images/icon-Youtube.svg" alt="유튜브 링크"
+          class="w-[52px] h-[52px]" /></a>
+      <a href="http://www.instagram.com" title="Instagram" target="_blank" class="mobile:w-8"><img src="/images/icon-Instragram.svg"
+          alt="인스타 링크" class="w-[52px] h-[52px]" /></a>
+      <a href="http://www.twitter.com" title="Instagram" target="_blank" class="mobile:w-8"><img src="/images/icon-Twitter.svg" alt="트위터 링크"
+          class="w-[52px] h-[52px]" /></a>
+      <a href="http://www.facebook.com" title="Instagram" target="_blank" class="mobile:w-8"><img src="/images/icon-Facebook.svg"
+          alt="페이스북 링크" class="w-[52px] h-[52px]" /></a>
+    </div>
+
+    <small class="text-gray5">Copyright &copy; 주식회사 티빙 All right reserved.</small>
+  </footer>
+</body>
+
+</html>

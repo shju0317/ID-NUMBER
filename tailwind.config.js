@@ -2,9 +2,17 @@ module.exports = {
   content: ["./src/**/*.{html,js}"],
   theme: {
     extend: {
+      backgroundImage: (theme) => ({
+        "checkbox-default": "url('../images/check-default.svg')",
+        "checkbox-checked": "url('../images/check-checked.svg')",
+        "checkbox-agree": "url('../images/icon-agree-check.svg')",
+        "checkbox-agree-red": "url('../images/icon-agree-check-red.svg')",
+        "checkbox-password": "url('../images/icon-password.svg')"
+      }),
       colors: {
         white: "#ffffff",
         black: "#000000",
+        red: "#ff153c",
         gray1: "#e1e1e1",
         gray2: "#c4c4c4",
         gray3: "#a6a6a6",
