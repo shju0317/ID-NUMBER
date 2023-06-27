@@ -4,67 +4,58 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>LOGIN</title>
+  <title>아이디 찾기</title>
   <!-- <link rel="stylesheet" as="style" crossorigin
     href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.7/dist/web/static/pretendard-dynamic-subset.css" /> -->
   <link rel="stylesheet" href="./style/style.css" />
   <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon" />
 </head>
 
-<body>
+<body> 
   <!--@ 헤더 -->
   <header class="max-w-[1920px] mx-auto h-[100px] desktop:h-[100px] tablet:h-[56px] mobile:h-[38px] flex gap-12 
     px-[68px] mobile:px-1 tablet:px-10 desktop:px-[68px] 
     sticky top-0 bg-black backdrop-blur-lg">
     <h1 class="w-[6.875vw] min-w-[46px] max-w-[132px] h-full">
-      <a href="./index.html" aria-label="타잉"
+      <a href="./index.html" aria-label="타빙"
         class="block w-full h-full bg-[url('/images/icon-logo.svg')] bg-no-repeat bg-contain bg-center"></a>
     </h1>
   </header>
 
+  <!--@ 아이디 찾기 -->
   <main class="max-w-[732px] min-w-[319px] mx-auto mobile:px-5">
-    <!--@ 로그인 -->
-    <form action="URL" class="flex text-center mb-12 justify-center" method="POST">
+    <h1 class="login-title font-bold text-center mb-14">아이디 찾기</h1>
+
+    <form action="URL" class="flex flex-col mb-12 justify-center items-center" method="POST">
+      <!-- 이메일로 찾기 -->
       <fieldset>
-        <legend class="login-title font-bold mb-14">TAING ID 로그인</legend>
-        <!-- 아이디 -->
-        <div class="w-[38vw] min-w-[288px] max-w-[732px] h-[5vw] min-h-[46px] max-h-[96px]">
-          <label for="userId" class="sr-only">아이디</label>
-          <input id="userId" name="userId" class=" form-input border p-4 outline-none rounded login-txt w-full h-full"
-            type="text" placeholder="아이디" required />
-        </div>
-
-        <!-- 비밀번호 -->
+        <legend class="font-bold">이메일로 찾기</legend>
+        <p class="w-[38vw] min-w-[288px] max-w-[732px] min-h-[46px] max-h-[96px] text-lg find-txt">
+          가입 시 등록한 이메일을 입력해주세요.
+        </p>
         <div class="mt-2 w-[38vw] min-w-[288px] max-w-[732px] h-[5vw] min-h-[46px] max-h-[96px]">
-          <label for="userPassword" class="sr-only">비밀번호</label>
-          <input id="userPassword" name="userPassword" class="form-input rounded login-txt w-full h-full"
-            type="password" placeholder="비밀번호" required />
+          <label for="userEmail" class="sr-only">이메일</label>
+          <input id="userEmail" name="userEmail" class="form-input rounded login-txt w-full h-full"
+            type="email" placeholder="이메일" required />
         </div>
- 
-        <!-- 자동 로그인 -->
-        <div class="flex relative mt-4 mb-10">
-          <input
-            class="auto-login appearance-none absolute top-1/2 -translate-y-1/2 w-[26px] h-[26px] checked:bg-checkbox-checked"
-            type="checkbox" id="autoLogin" name="autoLogin" />
-          <label for="autoLogin" class="pl-9 bg-checkbox-default bg-no-repeat bg-left text-lg">자동 로그인</label>
-        </div>
-
         <button type="submit"
-          class="w-[38vw] min-w-[288px] max-w-[732px] h-[4.5vw] min-h-[42px] max-h-[86px] text-white font-bold bg-red login-txt rounded ">로그인하기</button>
+          class="mt-5 w-[38vw] min-w-[288px] max-w-[732px] h-[4.5vw] min-h-[42px] max-h-[86px] text-white font-bold bg-red login-txt rounded">확인</button>
+      </fieldset>
+
+      <!-- 구분선 -->
+      <div class="flex w-[38vw] min-w-[288px] max-w-[732px] my-24 text-base text-gray-700 align-middle before:content-[''] before:flex-grow before:h-[1px] before:bg-gray-700 before:my-auto before:mr-4
+      after:content-[''] after:flex-grow after:h-[1px] after:bg-gray-700 after:my-auto after:ml-4">또는</div>
+
+      <!-- 본인인증으로 찾기 -->
+      <fieldset>
+        <legend class="font-bold">본인인증으로 찾기</legend>
+        <p class="w-[38vw] min-w-[288px] max-w-[732px] min-h-[46px] max-h-[96px] text-lg find-txt">
+          이미 본인인증이 완료된 계정에 한하여 아이디 찾기가 가능합니다.
+        </p>
+        <button type="submit"
+          class="mt-5 w-[38vw] min-w-[288px] max-w-[732px] h-[4.5vw] min-h-[42px] max-h-[86px] text-black font-bold bg-white login-txt rounded">본인인증하기</button>
       </fieldset>
     </form>
-
-    <!-- @아이디 찾기 및 비밀번호 찾기 -->
-    <div class="flex w-full h-[34px] text-lg justify-center items-center">
-      <a href="./find_id.html" class="block border-r-[1px] pr-5 border-gray5">아이디 찾기</a>
-      <a href="#" class="pl-5">비밀번호 찾기</a>
-    </div>
-
-    <!-- @회원가입 -->
-    <p class="mt-11 text-center text-lg">
-      아직 계정이 없으신가요?
-      <a class="font-bold" href="#">회원가입하기</a>
-    </p>
   </main>
 
   <!--@ 푸터 -->
