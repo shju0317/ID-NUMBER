@@ -39,6 +39,7 @@ h2 {
 }
 
 .form-input{
+  box-sizing: border-box;
   border: 2px solid black;
   width: 100%;
   padding: 1rem;
@@ -60,4 +61,8 @@ h2 {
 
 .login-txt{
   font-size: clamp(0.75rem, 0.55rem + 1vw, 1.75rem);
+}
+
+.find-txt{
+  font-size: clamp(0.625rem, 0.45rem + 0.875vw, 1.5rem);
 }
