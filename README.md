@@ -199,6 +199,7 @@ screens: {
 
 
 ### 오직 티빙에만 있어요
+
 ![only_markup](https://github.com/M-Moong/ID-NUMBER/assets/105577805/1490add0-b954-4be1-9868-38817a6dcd81)
 - 해당 section의 제목은 ``h2``로, 콘텐츠 목록은 순서가 없는 ``ul``과 ``li``로 마크업 합니다.
 - 각 콘텐츠는 클릭 시 해당 프로그램의 정보 페이지로 넘어가야하므로 ``img``의 부모 요소로 ``a``를 마크업 합니다.
@@ -216,6 +217,21 @@ screens: {
 
 
 ### 광고
+
+![2023-06-27_22-55-17](https://github.com/M-Moong/ID-NUMBER/assets/105577805/8138f150-00ae-4134-bc2b-e8d2da5debc5)
+
+```html
+<section class="mobile:pr-[8px] tablet:pr-[40px] desktop:pr-[70px] mobile:py-4 tablet:py-7 desktop:py-9 ">
+  <h2 class="sr-only">광고</h2>
+  <figure class="min-w-[304px] max-w-[1780px]">
+    <img src="/images/sports-1.jpg" />
+    <figcaption class="sr-only">타빙 스포츠 경기 생중계 UFC 월드복싱 슈퍼매치 분데스리가 AFC 챔피언스리그</figcaption>
+  </figure>
+</section>
+```
+- 해당 ``section``의 제목인 "광고"를 ``h2``로 마크업하고 ``sr-onyl(a11yHidden)`` 속성으로 스크린 리더에 정보를 제공하면서 화면에서는 숨깁니다.
+- 광고 이미지는 ``figure``를 부모 요소로 하여 ``img``로 마크업 합니다.
+- ``img``에 대한 대체 텍스트로 ``figcaption`` 을 마크업하고 화면에는 보이지 않도록  ``sr-onyl(a11yHidden)`` 속성을 부여합니다.
 
 </br>
 
