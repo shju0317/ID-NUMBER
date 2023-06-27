@@ -1,28 +1,185 @@
-# HTML/CSS 프로젝트
+[ 멋쟁이 사자처럼 🦁  프론트엔드 스쿨 6기 | **HTML/CSS 팀프로젝트** ]
 
-## **프로젝트 진행 시 준수사항**
+</br>
 
-프로젝트 요구사항을 분석해 구현하기 위한 가이드를 잘 참고해 진행해보세요.
+# 프로젝트 |&nbsp;&nbsp; <img src="https://github.com/M-Moong/ID-NUMBER/assets/105577805/4e893c53-c256-4b81-9c5e-4511ee48a13e" width="25px"/> TAING
+OTT 서비스 웹사이트를 반응형으로 구현합니다.
 
-## 웹 표준 마크업 & 스타일링
+</br>
 
-- 적절한 헤딩 사용 및 시맨틱 마크업에 신경써 주세요.
-  예 - 버튼 기능을 하는 UI를 마크업 할 때 <div> 등 가급적 의미없는 요소를 사용하지 마세요.
-  다만 <div> 요소를 사용하지 말라는 의미가 아닙니다.
-- 유효성 검증을 통해 문법 오류가 발생하지 않도록 구현해야 합니다.
-- 페이지 단위로 구현해주세요. (컴포넌트 단위 구현은 React 프로젝트에서 진행됩니다.)
-- 스타일 작성 시, CSS를 사용하거나 [Sass](https://sass-lang.com/) 등 프리프로세서 기술 중 자유롭게 선태학여 사용하시면 됩니다.
-- 네이밍 컨벤션은 [BEM](https://getbem.com/) 방식을 사용해 주세요. (선택사항)
+![project_main](https://github.com/M-Moong/ID-NUMBER/assets/105577805/39f92cf4-0812-43bd-ba84-a6322c2d155a)
 
----
 
-## 웹 접근성
+</br>
 
-- 이미지의 경우, 대체 텍스트 제공이 필요합니다.
-- 마우스로 조작할 수 있는 기능은 키보드로도 접근 및 조작이 가능해야 합니다.
-- 폼 컨트롤은 식별 가능한 레이블이 필요합니다.
-  (시각적으로 표현되지 않더라도 스크린 리더가 읽을 수 있게 처리해야 합니다)
-- 명도대비는 최소 4.5대 1을 준수해야 합니다. (`24px`, `18px Bold`인 경우, 최소 3대 1까지 허용 → [참고](https://www.w3.org/TR/WCAG22/#contrast-minimum))
-- 좀 더 상세한 웹접근성 가이드 라인 및 [체크리스트](https://www.notion.so/32d50962016c4c90a04c8447298434fc?pvs=21)는 사람인에서 공개한 정보를 참고해 주세요.
+# 📄 목차
+## [TAING](#프로젝트--taing)  
+1. [팀 소개 | 13조 주민등록번호](#👥-팀-소개--13조-주민등록번호)
+2. [개발 기간](#⏰-개발-기간)
+3. [기술 스택](#기술-스택)
+4. [코딩 컨벤션](#코딩-컨벤션)
+5. [코드 리뷰](#코드-리뷰--메인-페이지)
+   
+   1. [메인 페이지](#코드-리뷰--메인-페이지)
+   2. [로그인 관련 페이지](#코드-리뷰--로그인-관련-페이지)
+ 
 
-[소개 | 사람인 웹 접근성 교육](https://saramin.github.io/a11y)
+</br>
+
+# 👥 팀 소개&nbsp; |&nbsp; 13조 주민등록번호
+
+
+| 프로필 | 이름 | GitHup |
+|:-------:|:----:|:------:|
+|   <img src="https://github.com/M-Moong/ID-NUMBER/assets/105577805/3960e861-c116-4266-a7dc-bd1b857c7708" width="40" height="40"/>   |   신승민(팀장)  | https://github.com/M-Moong  |
+|   <img src="https://github.com/M-Moong/ID-NUMBER/assets/105577805/254b3756-eeea-42c4-ac37-36dd04a5fd95" width="40" height="40"/>   |   고명현 | https://github.com/gobeeisfree  |
+|   <img src="https://github.com/M-Moong/ID-NUMBER/assets/105577805/98abe1db-4633-4706-9b1a-c60ef550d4dd" width="40" height="40"/>   |   김다인  | https://github.com/kimInDa  |
+|   <img src="https://github.com/M-Moong/ID-NUMBER/assets/105577805/eefd0654-e98c-4c08-a96b-fbf4c5be4d92" width="40" height="40"/>   |   신현주  | https://github.com/shju0317  |
+
+</br>
+
+# ⏰ 개발 기간
+✽ 2023년 6월 22일 : 아이스 브레이킹
+
+✽ 2023년 6월 23일 :기술 스택, 코딩 컨벤션, 접근성 체크리스트, 구현 페이지 범위 확정 /  개발 환경 셋팅 / 파트 배분
+
+✽ 2023년 6월 24일 ~ 6월 25일 : 개인 파트 구현  
+
+✽ 2023년 6월 26일 : 개인 파트 함께 디버깅  
+
+✽ 2023년 6월 27일 : 모두의 작업물 merge & 디버깅 / 구현 페이지 추가 & 작업 / README 작성  
+
+✽ 2023년 6월 28일 : 과제 제출
+
+</br>
+
+# ⚙️ 기술 스택
+
+
+#### HTML
+
+<img src="https://github.com/M-Moong/ID-NUMBER/assets/105577805/fd7807ea-6cdb-47e5-a0dd-b77db83b3415" width="28px" display="block" />
+<img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=HTML5&logoColor=white" /> 
+
+
+</br>
+
+#### CSS
+
+<img src="https://github.com/M-Moong/ID-NUMBER/assets/105577805/24ed357f-a194-4fb5-b1b4-00dc200d04d7" width="28px" display="block" />
+<img src="https://img.shields.io/badge/Tailwind-06B6D4?style=for-the-badge&logo=Tailwind-CSS&logoColor=white" /> 
+
+</br>
+
+
+</br>
+
+# 코딩 컨벤션
+>## CSS 프레임워크
+>
+>1. 주민등록번호조의 CSS 프레임워크는 Tailwind를 사용한다.
+
+>## 네이밍 규칙
+>
+>1. 커스텀 CSS 클래스명은 **BEM 패턴**을 사용한다. (예시) `.form__input`
+> 
+>2. BEM패턴은 class에서 사용되는 방법론이므로 `id`나 `lable`, `name` 에서는 **카멜케이스**를 사용한다.  
+
+>## 들여쓰기 규칙
+>1. tab 간격은 2칸으로 한다.
+>   
+>2. 줄바꿈은 각자의 작업 방식에 따라 자유롭게 한다.
+>   
+>3. CSS 주석 방식은  한 줄이든 여러줄이든 `/*  */` 로 한다.
+>   
+>4. 따옴표는 `“ “` 겹따옴표를 사용한다.
+
+   
+</br>
+
+
+# 코드 리뷰&nbsp; |&nbsp;  메인 페이지
+## Head
+검색 엔진 최적화 관련 서술
+
+</br>
+
+## Main
+### header
+
+</br>
+
+### article
+
+</br>
+
+
+### 티빙에서 꼭 봐야되는 콘텐츠
+
+</br>
+
+
+### Quick VOD
+
+</br>
+
+
+### 실시간 인기 프로그램
+
+</br>
+
+
+### 인기 LIVE 채널
+
+</br>
+
+
+### 오직 티빙에만 있어요
+
+</br>
+
+
+### 광고
+
+</br>
+
+
+### 이벤트
+
+</br>
+
+
+### footer
+
+</br>
+
+
+</br>
+
+# 코드 리뷰&nbsp; |&nbsp;  로그인 관련 페이지
+## 로그인
+
+</br>
+
+## 아이디 찾기
+
+</br>
+
+## 비밀번호 찾기
+
+</br>
+
+## 회원가입
+
+</br>
+
+
+
+# 문법 검사, 크로스 브라우징, 성능 최적화
+
+</br>
+
+# 배운점 아쉬운점
+
+</br>
+
