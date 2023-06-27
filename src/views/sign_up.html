@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="ko-KR">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>회원가입</title>
+  <!-- <link rel="stylesheet" as="style" crossorigin
+    href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.7/dist/web/static/pretendard-dynamic-subset.css" /> -->
+  <link rel="stylesheet" href="./../style/style.css" />
+  <link rel="shortcut icon" href="./../images/favicon.ico" type="image/x-icon" />
+</head>
+
+<body>
+  <!--@ 헤더 -->
+  <header class="max-w-[1920px] mx-auto h-[100px] desktop:h-[100px] tablet:h-[56px] mobile:h-[38px] flex gap-12 
+    px-[68px] mobile:px-1 tablet:px-10 desktop:px-[68px] 
+    sticky top-0 bg-black backdrop-blur-lg">
+    <h1 class="w-[6.875vw] min-w-[46px] max-w-[132px] h-full">
+      <a href="/index.html" aria-label="타잉"
+        class="block w-full h-full bg-[url('/images/icon-logo.svg')] bg-no-repeat bg-contain bg-center"></a>
+    </h1>
+  </header>
+
+  <main class="max-w-[732px] min-w-[319px] mx-auto mobile:px-5">
+    <!--@ 회원가입 -->
+    <form action="URL" class="text-center mb-12 flex justify-center" method="POST">
+      <fieldset class="flex flex-col gap-7 tablet:gap-5 mobile:gap-3 justify-center items-center">
+        <legend class="login__title font-bold mb-7 text-white">타잉 회원가입</legend>
+
+        <p class="mb-5 text-gray4">아이디와 이메일로 간편하게 타잉을 시작하세요!</p>
+        <!-- 아이디 -->
+        <div class="w-[38vw] min-w-[288px] max-w-[732px] h-[5vw] min-h-[46px] max-h-[96px]">
+          <label for="userId" class="sr-only">아이디</label>
+          <input id="userId" name="userId" class=" form__input border p-4 outline-none rounded login__txt w-full h-full"
+            type="text" placeholder="아이디" required />
+            <div class="text-left text-gray5 pl-2">영문 또는 영문, 숫자 조합 6~12자리</div>
+          </div>
+
+        <!-- 비밀번호 -->
+        <div class="mt-2 w-[38vw] min-w-[288px] max-w-[732px] h-[5vw] min-h-[46px] max-h-[96px]">
+          <label for="userPassword" class="sr-only">비밀번호</label>
+          <input id="userPassword" name="userPassword" class="form__input rounded login__txt w-full h-full"
+            type="password" placeholder="비밀번호" required />
+            <div class="text-left text-gray5 pl-2">영문, 숫자, 특수문자(~!@#$%^&*) 조합 8~15자리</div>
+        </div>
+
+        <div class="mt-2 w-[38vw] min-w-[288px] max-w-[732px] h-[5vw] min-h-[46px] max-h-[96px] relative">
+          <label for="userPasswordCheck" class="sr-only">비밀번호 확인</label>
+          <input id="userPasswordCheck" name="userPasswordCheck" class="form__input rounded login__txt w-full h-full"
+            type="password" placeholder="비밀번호 확인" required />
+        </div>
+
+        <div class="mt-2 w-[38vw] min-w-[288px] max-w-[732px] h-[5vw] min-h-[46px] max-h-[96px]">
+          <label for="userEmail" class="sr-only">이메일</label>
+          <input id="userEmail" name="userEmail" class="form__input rounded login__txt w-full h-full"
+            type="email" placeholder="이메일" required />
+        </div>
+
+        <!-- 동의사항 -->
+        <div class="flex relative mt-4 mb-2 self-start tablet:mt-1 tablet:mb-0 mobile:mt-1 mobile:mb-0">
+          <input
+            class="appearance-none absolute top-1/2 -translate-y-1/2 w-[26px] h-[26px] checked:bg-checkbox-checked hover:cursor-pointer"
+            type="checkbox" id="agreeCheck" name="agreeCheck" />
+          <label for="agreeCheck" class="pl-9 bg-checkbox-default bg-no-repeat bg-left h-[26px]">모두 동의합니다.</label>
+        </div>
+
+        <!--@ 약관사항 -->
+        <div class="flex flex-col gap-2 font-normal">
+
+          <!--# 만 14세 이상입니다. -->
+          <div class="relative text-left">
+            <input
+              class="appearance-none absolute top-1/2 -translate-y-1/2 w-[26px] h-[26px] checked:bg-checkbox-agree-red hover:cursor-pointer"
+              type="checkbox" id="term1" name="autoLogin" />
+            <label for="term1" class="pl-8 bg-checkbox-agree bg-no-repeat bg-left text-gray5">만 14세 이상입니다.</label>
+          </div>
+
+          <!--# [필수] 서비스 이용약관 동의 -->
+          <div class="relative text-left">
+            <input
+              class="appearance-none absolute top-1/2 -translate-y-1/2 w-[26px] h-[26px] checked:bg-checkbox-agree-red hover:cursor-pointer"
+              type="checkbox" id="term2" name="autoLogin" />
+            <label for="term2" class="pl-8 bg-checkbox-agree bg-no-repeat bg-left text-gray5">[필수] 서비스 이용약관 동의</label>
+          </div>
+
+          <!--# [필수] 개인정보 수집 및 서비스 활용 동의 -->
+          <div class="relative text-left">
+            <input
+              class="appearance-none absolute top-1/2 -translate-y-1/2 w-[26px] h-[26px] checked:bg-checkbox-agree-red hover:cursor-pointer"
+              type="checkbox" id="term3" name="autoLogin" />
+            <label for="term3" class="pl-8 bg-checkbox-agree bg-no-repeat bg-left text-gray5">[필수] 개인정보 수집 및 서비스 활용 동의</label>
+          </div>
+
+          <!--# [필수] 채널 홈페이지 개인저옵 제 3자 제공동의 -->
+          <div class="relative text-left">
+            <input
+              class="appearance-none absolute top-1/2 -translate-y-1/2 w-[26px] h-[26px] checked:bg-checkbox-agree-red hover:cursor-pointer"
+              type="checkbox" id="term4" name="autoLogin" />
+            <label for="term4" class="pl-8 bg-checkbox-agree bg-no-repeat bg-left text-gray5">[필수] 채널 홈페이지 개인정보 제 3자 제공동의</label>
+          </div>
+
+          <!--# [선택] 개인정보 제 3자 제공동의 -->
+          <div class="relative text-left">
+            <input
+              class="appearance-none absolute top-1/2 -translate-y-1/2 w-[26px] h-[26px] checked:bg-checkbox-agree-red hover:cursor-pointer"
+              type="checkbox" id="term5" name="autoLogin" />
+            <label for="term5" class="pl-8 bg-checkbox-agree bg-no-repeat bg-left text-gray5">[선택] 개인정보 제 3자 제공동의</label>
+          </div>
+
+          <!--# [선택] 개인정보 수집 및 서비스 활용 동의   -->
+          <div class="relative text-left">
+            <input
+              class="appearance-none absolute top-1/2 -translate-y-1/2 w-[26px] h-[26px] checked:bg-checkbox-agree-red hover:cursor-pointer"
+              type="checkbox" id="term6" name="autoLogin" />
+            <label for="term6" class="pl-8 bg-checkbox-agree bg-no-repeat bg-left text-gray5">[선택] 개인정보 수집 및 서비스 활용 동의</label>
+          </div>
+
+          <!--# [선택] 마케팅 정보 SMS 수신동의 -->
+          <div class="relative indent-6 text-left">
+            <input
+              class="appearance-none absolute top-1/2 -translate-y-1/2 w-[26px] h-[26px] checked:bg-checkbox-agree-red hover:cursor-pointer"
+              type="checkbox" id="term7" name="autoLogin" />
+            <label for="term7" class="pl-8 bg-checkbox-agree bg-no-repeat bg-left text-gray5">[선택] 마케팅 정보 SMS 수신동의</label>
+          </div>
+
+          <!--# [선택] 마케팅 정보 이메일 수신동의 -->
+          <div class="relative indent-6 text-left">
+            <input
+              class="appearance-none absolute top-1/2 -translate-y-1/2 w-[26px] h-[26px] checked:bg-checkbox-agree-red hover:cursor-pointer"
+              type="checkbox" id="term8" name="autoLogin" />
+            <label for="term8" class="pl-8 bg-checkbox-agree bg-no-repeat bg-left text-gray5">[선택] 마케팅 정보 이메일 수신동의</label>
+          </div>
+
+          <!--# 가입하기  -->
+          <button type="submit" class="w-[38vw] min-w-[288px] max-w-[732px] h-[4.5vw] min-h-[42px] max-h-[86px] text-gray4 bg-gray7 login__txt rounded mt-4">가입하기</button>
+        </div>
+      </fieldset>
+    </form>
+  </main>
+
+  <!--@ 푸터 -->
+  <footer
+    class="max-w-full px-[68px] mobile:px-4 tablet:px-10 desktop:px-[68px] mx-auto pt-[10%] pb-[5%] footer__tablet__size">
+    
+    <div class="border-t border-t-gray5">
+      <ol class="flex mt-[27px] mb-[24px] mobile:flex-col mobile:gap-1 mobile:my-3">
+        <li class="mr-4"><a href="#" title="고객센터" target="_blank">고객센터</a></li>
+        <li class="mr-4"><a href="#" title="이용약관" target="_blank">이용약관</a></li>
+        <li class="mr-4"><a href="#" title="개인정보처리방침" target="_blank">개인정보처리방침</a></li>
+        <li class="mr-4"><a href="#" title="청소년 보호정책" target="_blank">청소년 보호정책</a></li>
+        <li class="mr-4"><a href="#" title="법적고지" target="_blank">법적고지</a></li>
+        <li class="mr-4"><a href="#" title="이벤트" target="_blank">이벤트</a></li>
+        <li><a href="#" title="인재채용" target="_blank">인재채용</a></li>
+      </ol>
+    </div>
+
+    <div class="mobile:sr-only">
+      <address class="not-italic text-gray5">
+        대표이사 : YANG JIEUL | <a href="" class="underline" title="사업자정보확인" target="_blank">사업자정보확인</a> |
+        사업자등록번호: 188-88-01893 |
+        통신판매신고번호 : 2020-서울마포-3641호<br />
+        사업장: 서울특별시 마포구 상암산로 34, DMC디지털큐브 15층(상암동) |
+        호스팅사업자 : 씨제이올리브네트웍스(주) <br />
+      </address>
+      <p class="text-gray5">
+        <a href="#" class="underline" title="고객문의 바로가기" target="_blank">고객문의 바로가기</a> |
+        <a href="mailto:tving@cj.net" class="underline" title="대표메일" target="_blank">대표메일 : tving@cj.net</a> |
+        <a href="#" class="underline" title="고객센터" target="_blank">고객센터 : 1670-1525 (평일/주말 09시~18시, 공휴일 휴무)</a> <br />
+        ENM 시청자 상담실 (편성 문의 및 시청자 의견) : 080-080-0780 |
+        Mnet 고객센터(방송편성문의) : 1855-1631
+      </p>
+    </div>
+
+    <!-- 아이콘 링크 -->
+    <div class="flex gap-5 my-6 mobile:gap-2 mobile:my-1">
+      <a href="http://www.youtube.com" title="youtube" target="_blank" class="mobile:w-8"><img src="/images/icon-Youtube.svg" alt="유튜브 링크"
+          class="w-[52px] h-[52px]" /></a>
+      <a href="http://www.instagram.com" title="Instagram" target="_blank" class="mobile:w-8"><img src="/images/icon-Instragram.svg"
+          alt="인스타 링크" class="w-[52px] h-[52px]" /></a>
+      <a href="http://www.twitter.com" title="Instagram" target="_blank" class="mobile:w-8"><img src="/images/icon-Twitter.svg" alt="트위터 링크"
+          class="w-[52px] h-[52px]" /></a>
+      <a href="http://www.facebook.com" title="Instagram" target="_blank" class="mobile:w-8"><img src="/images/icon-Facebook.svg"
+          alt="페이스북 링크" class="w-[52px] h-[52px]" /></a>
+    </div>
+
+    <small class="text-gray5">Copyright &copy; 주식회사 티빙 All right reserved.</small>
+  </footer>
+</body>
+
+</html>
