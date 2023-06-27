@@ -14,16 +14,16 @@
 
 <body>
   <!--@ 헤더 -->
-  <header class="max-w-[1920px] mx-auto h-[100px] desktop:h-[100px] tablet:h-[56px] mobile:h-[38px] flex gap-12 px-[68px] mobile:px-1 tablet:px-10 desktop:px-[68px] sticky top-0 header__gradient z-10">
+  <header class="max-w-[1920px] mx-auto h-[100px] desktop:h-[100px] tablet:h-[56px] mobile:h-[38px] flex gap-12 mobile:px-3 tablet:px-10 desktop:px-[68px] sticky top-0 header__gradient z-10">
     <h1 class="w-[6.875vw] min-w-[46px] max-w-[132px] h-full">
-      <a href="#" aria-label="타잉"
+      <a href="/index.html" aria-label="타잉"
         class="block w-full h-full bg-[url('/images/icon-logo.svg')] bg-no-repeat bg-contain bg-center"></a>
     </h1>
     <ul class="order-2 ml-auto flex items-center gap-[2vw]">
-      <li class="w-[2vw] h-[2vw] min-w-[18px] max-w-[40px]">
+      <li class="w-[2vw] h-[2vw] min-w-[18px] max-w-[40px] min-h-[18px]">
         <button class="block w-full h-full bg-[url('/images/icon-search.svg')] bg-no-repeat bg-contain bg-center" aria-label="검색"></button>
       </li>
-      <li class="w-[2vw] h-[2vw] min-w-[18px] max-w-[40px]">
+      <li class="w-[2vw] h-[2vw] min-w-[18px] max-w-[40px] min-h-[18px]">
         <a href="/views/login.html" class="block w-full h-full bg-[url('/images/profile-4.jpg')] bg-no-repeat bg-contain bg-center rounded" aria-label="마이페이지"></a>
       </li>
     </ul>
@@ -56,10 +56,10 @@
         인생 2회차를 사는 판타지 드라마
       </figcaption>
     </figure>
-    <a href="#" class="block text__button text-secondary border text-center border-secondary rounded-lg absolute right-[68px] mobile:right-3 tablet:right-10 bottom-[20%] mobile:bottom-[10%] tablet:bottom-[20%] max-w-[221px] w-[20%] py-5">자세히보기</a>
+    <a href="#" class="block text__button text-secondary border text-center border-secondary rounded-lg absolute right-[68px] mobile:right-3 tablet:right-10 bottom-[20%] mobile:bottom-[10%] tablet:bottom-[20%] max-w-[221px] w-[20%] py-5 tablet:py-3 mobile:py-1">자세히보기</a>
     <button class="slider__button text-gray4 absolute top-1/2 left-0 w-[68px] mobile:w-3 tablet:w-10 h-full -translate-y-1/2 text-[4.375vw]">❮</button>
     <button class="slider__button text-gray4 absolute top-1/2 right-0 w-[68px] mobile:w-3 tablet:w-10 h-full -translate-y-1/2 text-[4.375vw]">❯</button>
-    <div class="flex absolute left-[68px] mobile:left-3 tablet:left-10 bottom-[20.116959064327486%] mobile:bottom-[7.746478873239436%] tablet:bottom-[20.46783625730994%]">
+    <div class="flex absolute left-[68px] mobile:left-3 tablet:left-10 bottom-[17%] mobile:bottom-[13.746478873239436%] tablet:bottom-[17%]">
       <button class="mr-2 font-bold">∥</button>
       <ol class="flex text-gray-100">
         <li><button class="text-gray4">●</button></li>
@@ -73,7 +73,7 @@
   <!--@ 메인 -->
   <main class="pl-[68px] mobile:pl-1 tablet:pl-10 desktop:pl-[68px] max-w-full mx-auto">
     <!--$ 티빙에서 꼭 봐야하는 콘텐츠 -->
-    <section>
+    <section class="mobile:pt-[10px] tablet:pt-[20px] desktop:pt-[30px]">
       <h2 class="mb-3">티빙에서 꼭 봐야하는 콘텐츠</h2>
       <ol class="flex desktop:gap-4 pb-9 gap-2 overflow-y-hidden scroll">
         <li>
@@ -470,7 +470,7 @@
     </section>
 
     <!--$ 오직 티빙에만 있어요 -->
-    <section class="py-9">
+    <section class="mobile:py-4 tablet:py-7 desktop:py-9 ">
       <h2>오직 티빙에만 있어요</h2>
       <ul class="mt-3 flex gap-4 mobile:gap-2 overflow-y-hidden scroll">
         <li class="shrink-0 w-[14.8vw] min-w-[139px] max-w-[285px]"><a href="#"><img src="/images/only-1.jpg"
@@ -491,7 +491,7 @@
     </section>
 
     <!--$ 광고 배너 -->
-    <section class="py-9 mobile:pr-[8px] tablet:pr-[40px] desktop:pr-[70px] ">
+    <section class="mobile:pr-[8px] tablet:pr-[40px] desktop:pr-[70px] mobile:py-4 tablet:py-7 desktop:py-9 ">
       <h2 class="sr-only">광고</h2>
       <figure class="min-w-[304px] max-w-[1780px]">
         <img src="/images/sports-1.jpg" />
@@ -524,7 +524,7 @@
 
   <!--@ 푸터 -->
   <footer
-    class="max-w-full px-[68px] mobile:px-1 tablet:px-10 desktop:px-[68px] mx-auto pt-[140px] pb-[170px] footer__tablet__size">
+    class="max-w-full px-[68px] mobile:px-1 tablet:px-10 desktop:px-[68px] mx-auto mobile:pt-[30px] tablet:pt-[50px] desktop:pt-[100px] pb-[170px] footer__tablet__size">
     <div class="flex justify-between mb-[27px] mobile:mb-3">
       <p class="text-gray5 mobile:mr-3">
         <span class="mr-5 mobile:block">공지사항</span>
@@ -565,14 +565,14 @@
     </div>
 
     <!-- 아이콘 링크 -->
-    <div class="flex gap-5 my-6">
-      <a href="http://www.youtube.com" title="youtube" target="_blank"><img src="images/icon-Youtube.svg" alt="유튜브 링크"
+    <div class="flex gap-5 my-6 mobile:gap-2 mobile:my-1">
+      <a href="http://www.youtube.com" title="youtube" target="_blank" class="mobile:w-8"><img src="/images/icon-Youtube.svg" alt="유튜브 링크"
           class="w-[52px] h-[52px]" /></a>
-      <a href="http://www.instagram.com" title="Instagram" target="_blank"><img src="images/icon-Instragram.svg"
+      <a href="http://www.instagram.com" title="Instagram" target="_blank" class="mobile:w-8"><img src="/images/icon-Instragram.svg"
           alt="인스타 링크" class="w-[52px] h-[52px]" /></a>
-      <a href="http://www.twitter.com" title="Instagram" target="_blank"><img src="images/icon-Twitter.svg" alt="트위터 링크"
+      <a href="http://www.twitter.com" title="Instagram" target="_blank" class="mobile:w-8"><img src="/images/icon-Twitter.svg" alt="트위터 링크"
           class="w-[52px] h-[52px]" /></a>
-      <a href="http://www.facebook.com" title="Instagram" target="_blank"><img src="images/icon-Facebook.svg"
+      <a href="http://www.facebook.com" title="Instagram" target="_blank" class="mobile:w-8"><img src="/images/icon-Facebook.svg"
           alt="페이스북 링크" class="w-[52px] h-[52px]" /></a>
     </div>
 

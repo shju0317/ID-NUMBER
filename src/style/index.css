@@ -11,7 +11,7 @@ body {
 
 /* 메인페이지 섹션 제목크기 조정 */
 h2 {
-  @apply text-[1.48vw];
+  /* @apply text-[1.48vw]; */
   @apply font-bold;
   @apply leading-[140%];
 }
@@ -33,14 +33,14 @@ h2 {
 }
 
 /* 실시간 인기프로그램, 인기 LIVE 채널 제목 폰트 크기 */
-.text__title {
+/* .text__title {
   font-size: clamp(0.375rem, 0.1875rem + 0.9375vw, 1.3125rem);
-}
+} */
 
 /* 실시간 인기프로그램, 인기 LIVE 채널 프로그램명, 시청률 폰트 크기 */
-.text__desc {
+/* .text__desc {
   font-size: clamp(0.375rem, 0.25rem + 0.625vw, 1rem);
-}
+} */
 
 /* 아티클 자세히보기 버튼 폰트크기 */
 .text__button {
