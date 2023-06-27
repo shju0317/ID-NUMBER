@@ -12,9 +12,8 @@
 </head>
 
 <body>
-    <!--@ 헤더 -->
-    <header
-    class="max-w-[1920px] mx-auto h-[100px] desktop:h-[100px] tablet:h-[56px] mobile:h-[38px] flex gap-12 
+  <!--@ 헤더 -->
+  <header class="max-w-[1920px] mx-auto h-[100px] desktop:h-[100px] tablet:h-[56px] mobile:h-[38px] flex gap-12 
     px-[68px] mobile:px-1 tablet:px-10 desktop:px-[68px] 
     sticky top-0 bg-black backdrop-blur-lg">
     <h1 class="w-[6.875vw] min-w-[46px] max-w-[132px] h-full">
@@ -23,16 +22,16 @@
     </h1>
   </header>
 
-  <section class="max-w-[732px] min-w-[319px] mx-auto mobile:px-5" method="POST">
+  <main class="max-w-[732px] min-w-[319px] mx-auto mobile:px-5">
     <!--@ 로그인 -->
-    <form action="URL" class="flex text-center mb-12 justify-center">
-      <fieldset >
+    <form action="URL" class="flex text-center mb-12 justify-center" method="POST">
+      <fieldset>
         <legend class="login-title font-bold mb-14">TAING ID 로그인</legend>
         <!-- 아이디 -->
         <div class="w-[38vw] min-w-[288px] max-w-[732px] h-[5vw] min-h-[46px] max-h-[96px]">
           <label for="userId" class="sr-only">아이디</label>
-          <input id="userId" name="userId" class=" form-input border p-4 outline-none rounded login-txt w-full h-full" type="text"
-            placeholder="아이디" required />
+          <input id="userId" name="userId" class=" form-input border p-4 outline-none rounded login-txt w-full h-full"
+            type="text" placeholder="아이디" required />
         </div>
 
         <!-- 비밀번호 -->
@@ -43,13 +42,15 @@
         </div>
 
         <!-- 자동 로그인 -->
-          <div class="flex relative mt-4 mb-10">
-            <input class="auto-login appearance-none absolute top-1/2 -translate-y-1/2 w-[26px] h-[26px] checked:bg-checkbox-checked" 
+        <div class="flex relative mt-4 mb-10">
+          <input
+            class="auto-login appearance-none absolute top-1/2 -translate-y-1/2 w-[26px] h-[26px] checked:bg-checkbox-checked"
             type="checkbox" id="autoLogin" name="autoLogin" />
-            <label for="autoLogin" class="pl-9 bg-checkbox-default bg-no-repeat bg-left text-lg">자동 로그인</label>
-          </div>
+          <label for="autoLogin" class="pl-9 bg-checkbox-default bg-no-repeat bg-left text-lg">자동 로그인</label>
+        </div>
 
-        <button type="submit" class="w-[38vw] min-w-[288px] max-w-[732px] h-[4.5vw] min-h-[42px] max-h-[86px] text-white font-bold bg-red login-txt rounded ">로그인하기</button>
+        <button type="submit"
+          class="w-[38vw] min-w-[288px] max-w-[732px] h-[4.5vw] min-h-[42px] max-h-[86px] text-white font-bold bg-red login-txt rounded ">로그인하기</button>
       </fieldset>
     </form>
 
@@ -59,26 +60,16 @@
       <a href="#" class="pl-5">비밀번호 찾기</a>
     </div>
 
-    <!-- <div class="relative text-lg text-center">
-      <a href="#" >아이디 찾기</a>
-      <span class="bg-yellow-200" aria-hidden="true">|</span>
-      <a href="#" class="pl-5">비밀번호 찾기</a>
-    </div> -->
-
-    <!-- <div class="relative flex w-full h-[34px] text-lg justify-center items-center">
-      <a href="#" class="after:absolute after:top-0 after:bottom-0 after:content-[''] after:w-[1px] after:h-[70%] after:bg-gray5">아이디 찾기</a>
-      <a href="#" class="pl-5">비밀번호 찾기</a>
-    </div> -->
-
     <!-- @회원가입 -->
     <p class="mt-11 text-center text-lg">
       아직 계정이 없으신가요?
       <a class="font-bold" href="#">회원가입하기</a>
     </p>
-  </section>
+  </main>
 
   <!--@ 푸터 -->
-  <footer class="max-w-full px-[68px] mobile:px-1 tablet:px-10 desktop:px-[68px] mx-auto pt-[140px] pb-[170px] footer__tablet__size">
+  <footer
+    class="max-w-full px-[68px] mobile:px-1 tablet:px-10 desktop:px-[68px] mx-auto pt-[140px] pb-[170px] footer__tablet__size">
     <div class="flex justify-between mb-[27px] mobile:mb-3">
       <p class="text-gray5 mobile:mr-3">
         <span class="mr-5 mobile:block">공지사항</span>
