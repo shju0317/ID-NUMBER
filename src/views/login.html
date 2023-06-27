@@ -7,20 +7,19 @@
   <title>LOGIN</title>
   <!-- <link rel="stylesheet" as="style" crossorigin
     href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.7/dist/web/static/pretendard-dynamic-subset.css" /> -->
-  <link rel="stylesheet" href="./../style/style.css" />
-  <link rel="shortcut icon" href="./../images/favicon.ico" type="image/x-icon" />
+  <link rel="stylesheet" href="/style/style.css" />
+  <link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon" />
 </head>
 
 <body>
   <!--@ 헤더 -->
-  <header class="max-w-[1920px] mx-auto h-[100px] desktop:h-[100px] tablet:h-[56px] mobile:h-[38px] flex gap-12 
-    px-[68px] mobile:px-1 tablet:px-10 desktop:px-[68px] 
-    sticky top-0 bg-black backdrop-blur-lg">
+  <header class="max-w-[1920px] mx-auto h-[100px] desktop:h-[100px] tablet:h-[56px] mobile:h-[38px] flex gap-12 mobile:px-3 tablet:px-10 desktop:px-[68px] sticky top-0 header__gradient z-10">
     <h1 class="w-[6.875vw] min-w-[46px] max-w-[132px] h-full">
       <a href="/index.html" aria-label="타잉"
         class="block w-full h-full bg-[url('/images/icon-logo.svg')] bg-no-repeat bg-contain bg-center"></a>
     </h1>
   </header>
+
 
   <main class="max-w-[732px] min-w-[319px] mx-auto mobile:px-5">
     <!--@ 로그인 -->
@@ -56,14 +55,14 @@
 
     <!-- @아이디 찾기 및 비밀번호 찾기 -->
     <div class="flex w-full h-[34px] text-lg justify-center items-center">
-      <a href="./../views/find_id.html" class="block border-r-[1px] pr-5 border-gray5">아이디 찾기</a>
-      <a href="./../views/find_pw.html" class="pl-5">비밀번호 찾기</a>
+      <a href="/views/find_id.html" class="block border-r-[1px] pr-5 border-gray5">아이디 찾기</a>
+      <a href="/views/find_pw.html" class="pl-5">비밀번호 찾기</a>
     </div>
 
     <!-- @회원가입 -->
     <p class="mt-11 text-center text-lg text-gray5">
       아직 계정이 없으신가요?
-      <a class="font-bold text-gray2" href="./../views/sign_up.html">회원가입하기</a>
+      <a class="font-bold text-gray2" href="/views/sign_up.html">회원가입하기</a>
     </p>
   </main>
 
@@ -114,6 +113,12 @@
 
     <small class="text-gray5">Copyright &copy; 주식회사 티빙 All right reserved.</small>
   </footer>
+
+  <div class="flex justify-center items-center bg-yellow-200">
+    <a href="#" class=" bg-red-300  after:content-['|'] after:bg-gray-500">아이디 찾기</a>
+    <a href="#" class="bg-green-300">비밀번호 찾기</a>
+  </div>
+
 </body>
 
 </html>
