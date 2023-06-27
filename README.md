@@ -40,48 +40,44 @@ OTT 서비스 웹사이트를 반응형으로 구현합니다.
 </br>
 
 # ⏰ 개발 기간
-**✽ 2023년 6월 22일**
+#### 2023년 6월 22일
 - 아이스 브레이킹
 
-**✽ 2023년 6월 23일**
+#### 2023년 6월 23일
 - 기술 스택, 코딩 컨벤션, 접근성 체크리스트, 구현 페이지 범위 확정
 - 개발 환경 셋팅
 - 파트 배분
 
-**✽ 2023년 6월 24일** ~ 6월 25일
+#### 2023년 6월 24일 ~ 6월 25일
 - 개인 파트 구현  
 
-**✽ 2023년 6월 26일**
+#### 2023년 6월 26일
 - 개인 파트 함께 디버깅  
 
-**✽ 2023년 6월 27일**
+#### 2023년 6월 27일
 - 모두의 작업물 merge & 디버깅
 - 구현 페이지 추가 & 작업
 - README 작성  
 
-**✽ 2023년 6월 28일**
+#### 2023년 6월 28일
 - 과제 제출
 
 </br>
 
-# ⚙️ 기술 스택
+# 🛠️ 기술 스택
 
 
 #### HTML
 
-<img src="https://github.com/M-Moong/ID-NUMBER/assets/105577805/fd7807ea-6cdb-47e5-a0dd-b77db83b3415" width="28px"/>
-<img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=HTML5&logoColor=white" /> 
+<img src="https://github.com/M-Moong/ID-NUMBER/assets/105577805/fd7807ea-6cdb-47e5-a0dd-b77db83b3415" width="28px"/> <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=HTML5&logoColor=white" /> 
 
 
 #### CSS
 
-<img src="https://github.com/M-Moong/ID-NUMBER/assets/105577805/24ed357f-a194-4fb5-b1b4-00dc200d04d7" width="28px"/>
-<img src="https://img.shields.io/badge/Tailwind-06B6D4?style=for-the-badge&logo=Tailwind-CSS&logoColor=white" /> 
+<img src="https://github.com/M-Moong/ID-NUMBER/assets/105577805/24ed357f-a194-4fb5-b1b4-00dc200d04d7" width="28px"/> <img src="https://img.shields.io/badge/Tailwind-06B6D4?style=for-the-badge&logo=Tailwind-CSS&logoColor=white" /> 
 
 </br>
 
-
-</br>
 
 # 📖 코딩 컨벤션
 >### CSS 프레임워크
@@ -183,15 +179,15 @@ OTT 서비스 웹사이트를 반응형으로 구현합니다.
 </br>
 
 
-# 문법 검사
+# 🔎 문법 검사
 
 </br>
 
-# 크로스 브라우징
+# 💻 크로스 브라우징
 
 </br>
 
-# 성능 최적화
+# ⚙️ 성능 최적화
 
 </br>
 
