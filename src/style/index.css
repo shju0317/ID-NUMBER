@@ -34,16 +34,26 @@ h2 {
   @apply leading-[140%];
 }
 
+.form-input{
+  border: 2px solid black;
+  width: 100%;
+  padding: 1rem;
+  outline-style: none;
+  background-color: #565656;
+}
+
 .header-gradient {
   background: linear-gradient(#000, transparent);
 }
 
-/* .form-input{
-  @apply borderw-full p-4 outline-none;
-} */
-
 .form-input:focus{
-  @apply border-black dark:border-secondary;
+  border: 2px solid #ff153c;
 }
-/*# sourceMappingURL=index.css.map */
 
+.login-title{
+  font-size: clamp(1rem, 0.725rem + 1.375vw, 2.375rem);
+}
+
+.login-txt{
+  font-size: clamp(0.75rem, 0.55rem + 1vw, 1.75rem);
+}
