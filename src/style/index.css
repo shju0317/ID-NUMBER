@@ -22,6 +22,11 @@ h2 {
   font-size: clamp(0.75rem, -0.0278rem + 1.6204vw, 1.1875rem);
 }
 
+/* article 슬라이더 이전, 다음 버튼 크기 조정 */
+.slider__button {
+  font-size: clamp(0.875rem, 0.175rem + 3.5vw, 4.375rem);
+}
+
 /* 실시간 인기프로그램, 인기 LIVE 채널 순위 숫자 폰트 크기 */
 .text__rank {
   font-size: clamp(2.125rem, 1.675rem + 2.25vw, 4.375rem);
