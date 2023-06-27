@@ -102,6 +102,14 @@ OTT 서비스 웹사이트를 반응형으로 구현합니다.
 
 
 # ℹ️ 코드 리뷰 |&nbsp;&nbsp; 메인 페이지
+## 미디어 쿼리
+```css
+screens: {
+  mobile: {'min': '320px', 'max': '767px'},
+  tablet: {'min': '768px', 'max': '1199px'},
+  desktop: {'min': '1200px', 'max': '1920px'}
+}
+```
 ## Head
 ```html
 <title>TAING</title>
@@ -116,8 +124,21 @@ OTT 서비스 웹사이트를 반응형으로 구현합니다.
 
 ## Main
 ### header
+![main_header_markup2](https://github.com/M-Moong/ID-NUMBER/assets/105577805/6efb15cb-bbd5-46e1-89ae-71ae254835d3)
+- ``header``의 마크업 순서는 키보드 사용자와 스크린리더 사용자의 접근성을 고려하여 로고 제목, 검색, 네비게이션의 순서로 합니다.
+- 시안의 순서로 바꾸어 주기 위해 ``header``에 ``flex``를 지정해주고 2번 ``ol``의 order를 2로 지정합니다.
+- 1번 로고는 클릭 시 메인 페이지로 이동할 수 있어야 하므로 ``a``의 background-image로 넣어주고 ``aria-lable``로 대체 텍스트 "타잉"을 지정합니다., 페이지의 대제목이 될 수 있도록 ``h1``을 부모요소로 합니다.
+  ```html 
+  <h1>
+    <a href="#" aria-label="타잉" class="bg-[url('/images/icon-logo.svg')] bg-no-repeat"></a>
+  </h1>
+- 2번 검색 아이콘은 ``button``의 background-image로 넣어주고 ``aria-lable``로 대체 텍스트 "검색"을 지정해 줍니다.
+- 2번 프로필 사진은 클릭 시 마이페이지로 이동할 수 있도록 ``a``로 마크업 하고, background-image로 프로필 이미지를 넣어준 뒤 ``aria-lable``로 대체 텍스트 "마이페이지"를 지정해 줍니다.
+- 3번 네비게이션은 모바일에서는 보이지 않아야 하므로 미디어 쿼리를 사용하여 
+ 
 
 </br>
+
 
 ### article
 
