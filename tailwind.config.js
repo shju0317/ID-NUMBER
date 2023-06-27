@@ -5,6 +5,9 @@ module.exports = {
       backgroundImage: (theme) => ({
         "checkbox-default": "url('../images/check-default.svg')",
         "checkbox-checked": "url('../images/check-checked.svg')",
+        "checkbox-agree": "url('../images/icon-agree-check.svg')",
+        "checkbox-agree-red": "url('../images/icon-agree-check-red.svg')",
+        "checkbox-password": "url('../images/icon-password.svg')"
       }),
       colors: {
         white: "#ffffff",

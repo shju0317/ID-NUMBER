@@ -8,6 +8,12 @@ body {
   font-size: clamp(0.75rem, 0.6rem + 0.75vw, 1.5rem);
 }
 
+h2 {
+  @apply text-[1.48vw];
+  @apply font-bold;
+  @apply leading-[140%];
+}
+
 .footer__tablet__size {
   font-size: clamp(0.75rem, -0.0278rem + 1.6204vw, 1.1875rem);
 }
@@ -30,12 +36,6 @@ body {
 
 .scroll::-webkit-scrollbar {
   display: none;
-}
-
-h2 {
-  @apply text-[1.48vw];
-  @apply font-bold;
-  @apply leading-[140%];
 }
 
 .form-input{
