@@ -1074,11 +1074,6 @@ video {
   background-color: rgb(199 62 78 / var(--tw-bg-opacity));
 }
 
-.bg-black {
-  --tw-bg-opacity: 1;
-  background-color: rgb(0 0 0 / var(--tw-bg-opacity));
-}
-
 .bg-darkAccent {
   --tw-bg-opacity: 1;
   background-color: rgb(233 57 69 / var(--tw-bg-opacity));
@@ -1089,11 +1084,6 @@ video {
   background-color: rgb(64 64 64 / var(--tw-bg-opacity));
 }
 
-.bg-green-300 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(134 239 172 / var(--tw-bg-opacity));
-}
-
 .bg-red {
   --tw-bg-opacity: 1;
   background-color: rgb(255 21 60 / var(--tw-bg-opacity));
@@ -1102,11 +1092,6 @@ video {
 .bg-white {
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
-}
-
-.bg-yellow-200 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(254 240 138 / var(--tw-bg-opacity));
 }
 
 .bg-\[url\(\'\/images\/icon-logo\.svg\'\)\] {
@@ -1322,12 +1307,6 @@ video {
   outline-offset: 2px;
 }
 
-.backdrop-blur-lg {
-  --tw-backdrop-blur: blur(16px);
-  -webkit-backdrop-filter: var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);
-          backdrop-filter: var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);
-}
-
 /* 기본배경색, 글자색, 글자크기 설정 */
 
 body {
@@ -1484,12 +1463,6 @@ h2 {
   flex-grow: 1;
 }
 
-.after\:bg-gray-500::after {
-  content: var(--tw-content);
-  --tw-bg-opacity: 1;
-  background-color: rgb(107 114 128 / var(--tw-bg-opacity));
-}
-
 .after\:bg-gray-700::after {
   content: var(--tw-content);
   --tw-bg-opacity: 1;
@@ -1498,11 +1471,6 @@ h2 {
 
 .after\:content-\[\'\'\]::after {
   --tw-content: '';
-  content: var(--tw-content);
-}
-
-.after\:content-\[\'\|\'\]::after {
-  --tw-content: '|';
   content: var(--tw-content);
 }
 
