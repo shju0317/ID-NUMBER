@@ -1,7 +1,9 @@
 [ 멋쟁이 사자처럼 🦁  프론트엔드 스쿨 6기 | **HTML/CSS 팀프로젝트** ]
 
 # 프로젝트 |&nbsp;&nbsp; <img src="https://github.com/M-Moong/ID-NUMBER/assets/105577805/4e893c53-c256-4b81-9c5e-4511ee48a13e" width="25px"/> TAING
-🔗 배포 주소 : https://taing.netlify.app/
+### 🔗&nbsp; 배포 주소 : https://taing.netlify.app/
+
+</br>
 
 OTT 서비스 웹사이트를 반응형으로 구현합니다.
 
@@ -198,27 +200,38 @@ screens: {
 </br>
 
 
-### 오직 티빙에만 있어요
+### 오직 티빙에만 있어요, 이벤트
 
 ![only_markup](https://github.com/M-Moong/ID-NUMBER/assets/105577805/1490add0-b954-4be1-9868-38817a6dcd81)
-- 해당 section의 제목은 ``h2``로, 콘텐츠 목록은 순서가 없는 ``ul``과 ``li``로 마크업 합니다.
+![event_markup](https://github.com/M-Moong/ID-NUMBER/assets/105577805/5d3ce427-1ac0-4577-9b1e-d2647281e5ad)
+
+``` html
+<section>
+  <h2>섹션 제목</h2>
+  <ul class="flex gap-[10px] overflow-y-hidden scroll">
+    <li class="shrink-0 w-[18vw] min-w-[145px] max-w-[346px]">
+      <a href="#">
+        <img src="이미지 경로" alt="대체 텍스트"/>
+      </a>
+    </li>
+    .
+    .
+  </ul>
+</section>
+```
+- ``section``의 제목을 ``h2``로 마크업 합니다. 
+- 콘텐츠 목록은 순서가 없는 ``ul``과 ``li``로 마크업 합니다.
 - 각 콘텐츠는 클릭 시 해당 프로그램의 정보 페이지로 넘어가야하므로 ``img``의 부모 요소로 ``a``를 마크업 합니다.
 - ``ul``에 ``overflow-y-hidden`` 속성을 이용하여 횡스크롤이 생기도록 합니다. [(section별 횡스크롤)](#메인-페이지-section별-횡스크롤)
 - ``img``의 ``alt`` 속성을 이용하여 스크린 리더 사용자에게 해당 이미지의 대체 텍스트를 줍니다.
-  ```html
-   <li class="shrink-0 w-[14.8vw] min-w-[139px] max-w-[285px]">
-    <a href="#">
-      <img src="/images/only-1.jpg" alt="전체관람가:숏버스터" class="rounded-lg" />
-    </a>
-  </li>
-  ```
+
 
 </br>
 
 
 ### 광고
 
-![2023-06-27_22-55-17](https://github.com/M-Moong/ID-NUMBER/assets/105577805/8138f150-00ae-4134-bc2b-e8d2da5debc5)
+![광고](https://github.com/M-Moong/ID-NUMBER/assets/105577805/8138f150-00ae-4134-bc2b-e8d2da5debc5)
 
 ```html
 <section class="mobile:pr-[8px] tablet:pr-[40px] desktop:pr-[70px] mobile:py-4 tablet:py-7 desktop:py-9 ">
@@ -232,11 +245,6 @@ screens: {
 - 해당 ``section``의 제목인 "광고"를 ``h2``로 마크업하고 ``sr-onyl(a11yHidden)`` 속성으로 스크린 리더에 정보를 제공하면서 화면에서는 숨깁니다.
 - 광고 이미지는 ``figure``를 부모 요소로 하여 ``img``로 마크업 합니다.
 - ``img``에 대한 대체 텍스트로 ``figcaption`` 을 마크업하고 화면에는 보이지 않도록  ``sr-onyl(a11yHidden)`` 속성을 부여합니다.
-
-</br>
-
-
-### 이벤트
 
 </br>
 
@@ -267,15 +275,39 @@ screens: {
 
 
 # 🔎 문법 검사
+구현한 페이지들에 문법 검사를 시행한 결과 에러가 없음을 확인합니다.
+## 메인
+![main_checker](https://github.com/M-Moong/ID-NUMBER/assets/105577805/d4d78509-9f92-428d-b480-8dcbfd8e622d)
+
+## 로그인
+![login_checker](https://github.com/M-Moong/ID-NUMBER/assets/105577805/ae3806c6-1d1f-40ee-8207-2caf8a1c3b84)
+
+## 아이디 찾기 
+![findId_checker](https://github.com/M-Moong/ID-NUMBER/assets/105577805/66a3c83b-217e-4501-a042-d7131604490d)
+
+## 비밀번호 찾기
+![findPassword_checker](https://github.com/M-Moong/ID-NUMBER/assets/105577805/4b9c3596-d3f0-4fef-b69f-84d7de33df41)
+
+## 회원가입
+![join_checker](https://github.com/M-Moong/ID-NUMBER/assets/105577805/1ec8abb9-4e69-4940-8500-c6c9451d5f9d)
+
 
 </br>
 
 # 💻 크로스 브라우징
+각 모던 브라우저 Chrome, Firefox, Safari, Edge 환경에 맞춰 구현됨을 확인합니다.
+
+
+| <img width="15" alt="browsers-chrome" src="https://github.com/M-Moong/ID-NUMBER/assets/105577805/5cde8ef4-6f95-4806-a289-b82b92da4ea6"> **Chrome** | <img width="15" alt="browsers-firefox" src="https://github.com/M-Moong/ID-NUMBER/assets/105577805/b90bf217-6fe6-414b-a769-dd7e7339a4a4"> **FireFox수정** | <img width="15" alt="browsers-safari" src="https://github.com/M-Moong/ID-NUMBER/assets/105577805/ba710b63-897c-46fc-977f-21c63bb0c3db"> **Safari** | <img width="15" alt="browsers-edge" src="https://github.com/M-Moong/ID-NUMBER/assets/105577805/fa7338c3-a674-43c1-9e6b-767d2b336228"> **Edge수정** |
+|:----------:|:-----------:|:----------:|:--------:|
+| <img width="150px" height="250px" src="https://github.com/M-Moong/ID-NUMBER/assets/105577805/f62df73c-461f-4901-b976-bc089083723b" /> | <img width="150px" height="250px" src="https://github.com/M-Moong/ID-NUMBER/assets/105577805/f62df73c-461f-4901-b976-bc089083723b" /> | <img width="150px" height="250px" src="https://github.com/M-Moong/ID-NUMBER/assets/105577805/0520d6c4-9bed-4965-acf1-9b3826b1c24c" style="padding:0" /> | <img width="150px" height="250px" src="https://github.com/M-Moong/ID-NUMBER/assets/105577805/f62df73c-461f-4901-b976-bc089083723b" />     |
+
 
 </br>
 
 # ⚙️ 성능 최적화
 
+[Core Web Vitals](https://pagespeed.web.dev/?hl=ko)를 사용하여 구현한 웹사이트의 성능 최적화를 검사합니다.
 </br>
 
 
