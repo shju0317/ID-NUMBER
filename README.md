@@ -359,6 +359,12 @@ screens: {
 
 [Core Web Vitals](https://pagespeed.web.dev/?hl=ko)를 사용하여 웹사이트의 성능 최적화를 검사합니다.
 
+### 데스크톱
+![checker-desktop](https://github.com/M-Moong/ID-NUMBER/assets/105577805/fed2127d-abf8-4bbf-9d80-00a4ec5ad170)
+
+### 휴대전화
+![checker-mobile](https://github.com/M-Moong/ID-NUMBER/assets/105577805/8c3a00f4-1693-4248-86bf-677047c81774)
+
 </br>
 
 # 📝 프로젝트 한줄평
