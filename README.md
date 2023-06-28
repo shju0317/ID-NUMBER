@@ -76,7 +76,7 @@ OTT 서비스 웹사이트를 반응형으로 구현합니다.
 
 |   구분  | 모바일(320px) | 태블릿(768px) | 데스크톱(1920px) |
 |:--------:|:-------:|:---:|:-:|
-| **메인** | <img width="50px" height="300px" src="https://github.com/M-Moong/ID-NUMBER/assets/105577805/e1d17ffa-fbe9-4bc3-8d2c-abaef77d8759" /> | <img width="100px" height="400px" src="https://github.com/M-Moong/ID-NUMBER/assets/105577805/e2a56b35-7770-456a-8ca7-f7f82873a166" /> | <img width="150px" height="500px" src="https://github.com/M-Moong/ID-NUMBER/assets/105577805/dd6efcac-9750-4697-886e-bd3b9696fe2f" /> |
+| **메인** | <img width="50px" height="300px" src="https://github.com/M-Moong/ID-NUMBER/assets/105577805/e1d17ffa-fbe9-4bc3-8d2c-abaef77d8759" /> | <img width="150px" height="400px" src="https://github.com/M-Moong/ID-NUMBER/assets/105577805/e2a56b35-7770-456a-8ca7-f7f82873a166" /> | <img width="250px" height="500px" src="https://github.com/M-Moong/ID-NUMBER/assets/105577805/dd6efcac-9750-4697-886e-bd3b9696fe2f" /> |
 | **로그인** | <img width="120px" height="300px" src="https://github.com/M-Moong/ID-NUMBER/assets/105577805/85f056bf-4bb5-4982-b99a-5f2c968878b4" /> | <img width="250px" height="350px" src="https://github.com/M-Moong/ID-NUMBER/assets/105577805/b156df2a-21ca-4339-9aa6-a890df451862" /> | <img width="500px" height="400px" src="https://github.com/M-Moong/ID-NUMBER/assets/105577805/4d636646-7ca2-4207-9cab-d16292296d73" /> |
 | **아이디 찾기** | <img width="120px" height="300px" src="https://github.com/M-Moong/ID-NUMBER/assets/105577805/28956956-81b9-476e-864d-66de12615b3c" /> | <img width="250px" height="350px" src="https://github.com/M-Moong/ID-NUMBER/assets/105577805/190ff84c-36ed-44b1-84b4-d9a03fd25fdf" /> | <img width="500px" height="400px" src="https://github.com/M-Moong/ID-NUMBER/assets/105577805/68056962-291c-454f-88b1-16bab3fa0e08" /> |
 | **비밀번호 찾기** | <img width="120px" height="300px" src="https://github.com/M-Moong/ID-NUMBER/assets/105577805/53c9fd50-f37f-4bb4-b009-0339777ed0da" /> | <img width="250px" height="350px" src="https://github.com/M-Moong/ID-NUMBER/assets/105577805/77921f4f-af36-40ec-accf-7a7281307c92" /> | <img width="500px" height="400px" src="https://github.com/M-Moong/ID-NUMBER/assets/105577805/fb12391f-e39b-40ea-a54e-0bdc6e62e8c6" /> |
@@ -93,7 +93,7 @@ OTT 서비스 웹사이트를 반응형으로 구현합니다.
 
 #### CSS
 
-<img src="https://github.com/M-Moong/ID-NUMBER/assets/105577805/bed6550a-a5b3-48e2-a6f7-b105c6bd3455" width="28px"/> <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=CSS3&logoColor=white" />&nbsp;&nbsp;&nbsp;<img src="https://github.com/M-Moong/ID-NUMBER/assets/105577805/24ed357f-a194-4fb5-b1b4-00dc200d04d7" width="28px"/> <img src="https://img.shields.io/badge/Tailwind-06B6D4?style=for-the-badge&logo=n&logoColor=white" />
+<img src="https://github.com/M-Moong/ID-NUMBER/assets/105577805/bed6550a-a5b3-48e2-a6f7-b105c6bd3455" width="28px"/> <img src="https://img.shields.io/badge/CSS-1572B6?style=for-the-badge&logo=CSS3&logoColor=white" />&nbsp;&nbsp;&nbsp;<img src="https://github.com/M-Moong/ID-NUMBER/assets/105577805/24ed357f-a194-4fb5-b1b4-00dc200d04d7" width="28px"/> <img src="https://img.shields.io/badge/Tailwind-06B6D4?style=for-the-badge&logo=n&logoColor=white" />
 
 #### Package Manager
 <img src="https://github.com/M-Moong/ID-NUMBER/assets/105577805/98668e2c-d97a-45d0-8f75-e14084e75d09" width="28px"/> <img src="https://img.shields.io/badge/npm-CB3837?style=for-the-badge&logo=npm&logoColor=white" />
