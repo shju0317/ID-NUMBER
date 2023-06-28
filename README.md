@@ -338,12 +338,14 @@ screens: {
     </div>
   ```
 - ``border-right``를 지정하여 `아이디 찾기`와 `비밀번호 찾기` 사이의 구분선을 표현합니다.
+  
 ![image-3](https://github.com/M-Moong/ID-NUMBER/assets/105577805/c0d45c17-ada2-4196-bdd7-8e108d667412)
 
 </br>
 
 ## 아이디 찾기
 - ``input``을 ``type="email"``로 지정하여 이메일 형식으로 입력하지 않는 경우 메시지를 보여줍니다.
+  
   ![image-5](https://github.com/M-Moong/ID-NUMBER/assets/105577805/db54c6a5-751a-4632-91b5-c0f5e1493d0f)
 
 - ``before``와 ``after`` 가상요소를 사용하여 구분선을 표현합니다. 구분선이 가운데에 위치하도록 ``my-auto``를 지정합니다.
