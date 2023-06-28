@@ -186,10 +186,24 @@ screens: {
 
 ### 티빙에서 꼭 봐야되는 콘텐츠
 
+<img width="862" alt="image" src="https://github.com/M-Moong/ID-NUMBER/assets/109510367/402ee07a-d960-4e82-84ce-590eb21ae693">
+
+- ```h2```로 섹션의 제목을 구성했습니다.
+- ```ol>li```로 각 이미지들의 리스트를 구현하였고, ```<a>```로 figure를 감싸 링크 형식으로 작성하였습니다.
+- ```<img>```와 ```<figcaption>```을 ```<figure>```로 감싸 독립적으로 포스터에 제목을 나타냈습니다.
+- 횡 스크롤은 ```overflow-y-hidden```을 주어 좌우 이동될수있게 표현하였습니다. [(section별 횡스크롤)](#메인-페이지-section별-횡스크롤)
+
+
 </br>
 
 
 ### Quick VOD
+
+<img width="1067" alt="image" src="https://github.com/M-Moong/ID-NUMBER/assets/109510367/131cc439-398d-4c37-94e5-4b131fa766df">
+
+- ```h2```로 섹션의 제목을 구성했습니다.
+- ```ol>li```로 각 이미지들의 리스트를 구현하였고, ```<a>```로 figure를 감싸 링크 형식으로 작성하였습니다.
+- 포스터의 제목과 설명은 ```dl>(dt+dd)*2```의 구조로 ```dt```는 ```aria-label```로 숨김처리를 하였고, ```dd```가 무슨 역할인지 설명할수 있도록 작성하였습니다.
 
 </br>
 
@@ -254,6 +268,14 @@ screens: {
 
 
 ### footer
+
+<img width="797" alt="image" src="https://github.com/M-Moong/ID-NUMBER/assets/109510367/fd6e0607-e5cb-41ca-8099-6097b59a397f">
+
+- 가로 구분선의 위의 요소들은 ```flexbox```를 주어 좌우로 배치를 하였습니다.
+- 가로 구분선은 아래요소의 ```border-top```을 주어 나타내었습니다.
+- ```div>ol>li``` 도 ```flexbox```를 주어 가로로 배치를 하였고, 밑줄있는 요소는 ```a```태그의 ```underline```을 주어 밑줄을 표현하였습니다.
+- ```mail```요소는 ```a``` 태그에 ```mailto```를 주어 바로 메일을 작성할수 있도록 하였습니다.
+- 아래의 아이콘은 ```a``` 태그에 ```image```를 넣어 구현하였습니다.
 
 </br>
 
@@ -321,6 +343,14 @@ screens: {
 
 ## 회원가입
 
+<img width="538" alt="image" src="https://github.com/M-Moong/ID-NUMBER/assets/109510367/1d9e5fdd-97b1-4772-b6e8-4ea30b936ea0">
+
+- ```form``` 태그에 ```flexbox```를 요소를 추가해 item들이 세로정렬을 할수 있게 구현하였습니다.
+- ```Legend```와 ```p```태그를 이용하여 제목과 설명을 배치하였습니다.
+- 아이디와 비밀번호 박스의 구성은 ```div>label+input+div```로 구성하여 배치하였습니다.
+- 약관사항의 요소들은 ```flexbox```의 ```column```으로 배치하였습니다. 각 아이템들은 text는 ```label```로 구성하였고, ```checkbox```이미지는 ```input```으로 구성했습니다.
+- ```input```의 타입은 ```checkbox```로 설정하였고, ```checked```시 이미지를 교체하여 체크표시가 되게끔 구현했습니다. 
+
 </br>
 
 
@@ -371,7 +401,7 @@ screens: {
 
 | 프로필 | 이름 | 한줄평 |
 |:-------:|:----:|:------:|
-|   <img src="https://github.com/M-Moong/ID-NUMBER/assets/105577805/3960e861-c116-4266-a7dc-bd1b857c7708" width="40" height="40"/>   |   신승민(팀장)  | 한줄평  |
+|   <img src="https://github.com/M-Moong/ID-NUMBER/assets/105577805/3960e861-c116-4266-a7dc-bd1b857c7708" width="40" height="40"/>   |   신승민(팀장)  | 이렇게 좋으신분들을 일찍 만나지 못했지만 지금이라도 만나, 같이 작업할 수 있어서 행복했습니다.  |
 |   <img src="https://github.com/M-Moong/ID-NUMBER/assets/105577805/254b3756-eeea-42c4-ac37-36dd04a5fd95" width="40" height="40"/>   |   고명현 | 한줄평  |
 |   <img src="https://github.com/M-Moong/ID-NUMBER/assets/105577805/98abe1db-4633-4706-9b1a-c60ef550d4dd" width="40" height="40"/>   |   김다인  | 함께 길을 찾는 재미 |
 |   <img src="https://github.com/M-Moong/ID-NUMBER/assets/105577805/eefd0654-e98c-4c08-a96b-fbf4c5be4d92" width="40" height="40"/>   |   신현주  | 한줄평  |
