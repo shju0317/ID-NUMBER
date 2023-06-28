@@ -147,10 +147,23 @@ screens: {
 
 ### 티빙에서 꼭 봐야되는 콘텐츠
 
+![Alt text](image-1.png)
+
+- ```h2```로 섹션의 제목을 구성했습니다.
+- ```ol>li```로 각 이미지들의 리스트를 구현하였고, ```<a>```로 figure를 감싸 링크 형식으로 작성하였습니다.
+- ```<img>```와 ```<figcaption>```을 ```<figure>```로 감싸 독립적으로 포스터에 제목을 나타냈습니다.
+- 횡 스크롤은 ```overflow-y-hidden```을 주어 좌우 이동될수있게 표현하였습니다.
+
 </br>
 
 
 ### Quick VOD
+
+![Alt text](image-3.png)
+
+- ㅇㄹㅇㄴㄹ
+- ㄹㄴㅇㄹㅇㄴ
+- ㄴㅇㄹㅇㄴㄹㅇㄴ
 
 </br>
 
@@ -182,6 +195,12 @@ screens: {
 
 ### footer
 
+![Alt text](image-5.png)
+
+- ㄹㅇㄴㄹㅇㄴ
+- ㅇㄹㄴㅇㄹㄴ
+- ㄴㅇㄹㅇㄴㄹ
+
 </br>
 
 
@@ -201,6 +220,12 @@ screens: {
 </br>
 
 ## 회원가입
+
+![Alt text](image-7.png)
+
+- dsjlfdsf
+- dsfsdfds
+- sdfdsf
 
 </br>
 
