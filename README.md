@@ -9,7 +9,7 @@ OTT 서비스 웹사이트를 반응형으로 구현합니다.
 
 </br>
 
-![project_main](https://github.com/M-Moong/ID-NUMBER/assets/105577805/39f92cf4-0812-43bd-ba84-a6322c2d155a)
+![main_work](https://github.com/M-Moong/ID-NUMBER/assets/105577805/29e1de36-2166-416a-b4aa-81bcbf238b80)
 
 
 </br>
