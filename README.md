@@ -180,7 +180,13 @@ screens: {
 </br>
 
 ### 타이틀 배너
-
+![title banner](https://github.com/M-Moong/ID-NUMBER/assets/125634564/283f2891-d0a8-49d7-82f6-81d4e670f9ec)
+- `article` 태그 안 메인이 되는 이미지를 `figure` 태그안에 배치하고 `figcaption`으로 설명을 적어 배치합니다.
+- 해당 이미지에 대한 `자세히보기 button` 첫번째, 다음으로 슬라이드 기능으로 동작할 `이전, 다음 화살표 모양 button` 그리고 마지막으로는 `pagination 기능을 할 button` 순으로 마크업 합니다.
+- `이전, 다음 화살표 모양 button`은 해당 기능이 이미지의 좌·우의 각 세로 어디를 눌러도 동작할 수 있도록 height에 100%를 지정합니다.
+- **접근성**
+  - `이전, 다음 화살표 모양 button`에 `aria-label` 값으로 각각 `이전 슬라이드`, `다음 슬라이드`를 지정합니다.
+  - `pagination 기능을 할 button`에 `aria-label` 값으로 각각 `n번째 슬라이드`를 지정합니다.
 </br>
 
 
@@ -209,12 +215,39 @@ screens: {
 
 
 ### 실시간 인기 프로그램
-
+![favorite](https://github.com/M-Moong/ID-NUMBER/assets/125634564/0e719c88-a071-442c-a807-ea2ee6ca5757)
+- 순위와 프로그램명을 a 태그 안에 배치해 링크 영역에 속할 수 있도록 합니다.
+- 순위와 프로그램명을 `dl 태그`로 구성하고 화면에 보이지 않는 부분은 `dt 태그`, 보이는 부분은 `dd 태그`에 정의합니다.
+  - `dt의 텍스트 노드에 빈 값`을 주고 aria-label에 각각 순위, 프로그램명 이라는 값을 줍니다.
+    ```HTML
+    <dl>
+      <dt aria-label="순위"></dt>
+      <dd>1</dd>
+      <dt aria-label="프로그램명"></dt>
+      <dd>황혼: 빛과 그림자</dd>
+    </dl>
+    ```
 </br>
 
 
 ### 인기 LIVE 채널
-
+![live](https://github.com/M-Moong/ID-NUMBER/assets/125634564/6fa5be9f-cab7-4945-994c-261a252b969d)
+- 실시간 인기 프로그램 섹션과 동일한 구성으로 마크업
+- 순위와 채널명, 프로그램명, 시청률을 a 태그 안에 배치해 링크 영역에 속할 수 있도록 합니다.
+- 순위와 채널명, 프로그램명, 시청률을 `dl 태그`로 구성하고 화면에 보이지 않는 부분은 `dt 태그`, 보이는 부분은 `dd 태그`에 정의합니다.
+  - `dt의 텍스트 노드에 빈 값`을 주고 aria-label에 각각 순위, 프로그램명 이라는 값을 줍니다.
+    ```HTML
+    <dl>
+      <dt aria-label="순위"></dt>
+      <dd>1</dd>
+      <dt aria-label="채널명"></dt>
+      <dd>JTBC</dd>
+      <dt aria-label="프로그램명"></dt>
+      <dd>JTBC 뉴스룸</dd>
+      <dt aria-label="시청률"></dt>
+      <dd>27.9%</dd>
+    </dl>
+    ```
 </br>
 
 
@@ -292,7 +325,24 @@ screens: {
 </br>
 
 ## 비밀번호 찾기
+- `form 태그` 안에 전체요소를 감싸는 `fieldset`으로 영역을 지정합니다.
+- `legend`는 화면에 표시되지 않기 위해 `sr-only class를 추가`합니다.
+- `div`으로 스타일링 할 영역을 감싸줍니다.
+- `p 태그`에는 비밀번호 찾기에 대한 텍스트를 작성합니다.
+- `sr-only 속성 추가`로 화면에 보이지 않는 `label 태그`와, placeholder에 `아이디`를 포함한 `input 태그`로 화면과 같이 구현합니다.
 
+- ```HTML
+  <form>
+      <fieldset>
+        <div>
+          <p></p>
+          <label></label>
+          <input/>
+          <button></button>
+        </div>
+      </fieldset>
+  </form>
+  ```
 </br>
 
 ## 회원가입
@@ -350,7 +400,7 @@ screens: {
 | 프로필 | 이름 | 한줄평 |
 |:-------:|:----:|:------:|
 |   <img src="https://github.com/M-Moong/ID-NUMBER/assets/105577805/3960e861-c116-4266-a7dc-bd1b857c7708" width="40" height="40"/>   |   신승민(팀장)  | 프로젝트를 통해 HTML과 CSS에 대해 좀더 고민할수 있는 시간을 가져서 좋았습니다. 그리고 다른 사람들과 하는 협업에 대해 많이 배운것 같습니다.  |
-|   <img src="https://github.com/M-Moong/ID-NUMBER/assets/105577805/254b3756-eeea-42c4-ac37-36dd04a5fd95" width="40" height="40"/>   |   고명현 | 한줄평  |
+|   <img src="https://github.com/M-Moong/ID-NUMBER/assets/105577805/254b3756-eeea-42c4-ac37-36dd04a5fd95" width="40" height="40"/>   |   고명현 | UI 구현을 하며 아직 많이 부족하다는 것을 깨달았고, 그 부분을 좋은 팀원분들과 채워나갈 수 있는 좋은 시간이었습니다.  |
 |   <img src="https://github.com/M-Moong/ID-NUMBER/assets/105577805/98abe1db-4633-4706-9b1a-c60ef550d4dd" width="40" height="40"/>   |   김다인  | 함께 길을 찾는 재미 |
 |   <img src="https://github.com/M-Moong/ID-NUMBER/assets/105577805/eefd0654-e98c-4c08-a96b-fbf4c5be4d92" width="40" height="40"/>   |   신현주  | 한줄평  |
 
