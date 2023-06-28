@@ -19,18 +19,19 @@ OTT 서비스 웹사이트를 반응형으로 구현합니다.
 
 1. [팀 소개 | 13조 주민등록번호](#-팀-소개--13조-주민등록번호)
 2. [개발 기간](#-개발-기간)
-3. [기술 스택](#️-기술-스택)
-4. [코딩 컨벤션](#-코딩-컨벤션)
-5. [코드 리뷰](#ℹ️-코드-리뷰--주요-이슈)
+3. [구현 페이지](#️-구현-페이지)
+4. [기술 스택](#️-기술-스택)
+5. [코딩 컨벤션](#-코딩-컨벤션)
+6. [코드 리뷰](#ℹ️-코드-리뷰--주요-이슈)
    
    1. [주요 이슈](#ℹ️-코드-리뷰--주요-이슈)
    2. [메인 페이지](#ℹ️-코드-리뷰--메인-페이지)
    3. [로그인 관련 페이지](#ℹ️-코드-리뷰--로그인-관련-페이지)
    
-6. [문법 검사](#-문법-검사)
-7. [크로스 브라우징](#-크로스-브라우징)
-8. [성능 최적화](#️-성능-최적화)
-9. [프로젝트 한줄평](#-프로젝트-한줄평)
+7. [문법 검사](#-문법-검사)
+8. [크로스 브라우징](#-크로스-브라우징)
+9. [성능 최적화](#️-성능-최적화)
+10. [프로젝트 한줄평](#-프로젝트-한줄평)
 
 </br>
 
@@ -71,6 +72,18 @@ OTT 서비스 웹사이트를 반응형으로 구현합니다.
 
 </br>
 
+# 🖥️ 구현 페이지
+
+|   구분  | 모바일(320px) | 태블릿(768px) | 데스크톱(1920px) |
+|:--------:|:-------:|:---:|:-:|
+| **메인** | <img width="50px" height="300px" src="https://github.com/M-Moong/ID-NUMBER/assets/105577805/e1d17ffa-fbe9-4bc3-8d2c-abaef77d8759" /> | <img width="150px" height="400px" src="https://github.com/M-Moong/ID-NUMBER/assets/105577805/e2a56b35-7770-456a-8ca7-f7f82873a166" /> | <img width="250px" height="500px" src="https://github.com/M-Moong/ID-NUMBER/assets/105577805/dd6efcac-9750-4697-886e-bd3b9696fe2f" /> |
+| **로그인** | <img width="120px" height="300px" src="https://github.com/M-Moong/ID-NUMBER/assets/105577805/85f056bf-4bb5-4982-b99a-5f2c968878b4" /> | <img width="250px" height="350px" src="https://github.com/M-Moong/ID-NUMBER/assets/105577805/b156df2a-21ca-4339-9aa6-a890df451862" /> | <img width="500px" height="400px" src="https://github.com/M-Moong/ID-NUMBER/assets/105577805/4d636646-7ca2-4207-9cab-d16292296d73" /> |
+| **아이디 찾기** | <img width="120px" height="300px" src="https://github.com/M-Moong/ID-NUMBER/assets/105577805/28956956-81b9-476e-864d-66de12615b3c" /> | <img width="250px" height="350px" src="https://github.com/M-Moong/ID-NUMBER/assets/105577805/190ff84c-36ed-44b1-84b4-d9a03fd25fdf" /> | <img width="500px" height="400px" src="https://github.com/M-Moong/ID-NUMBER/assets/105577805/68056962-291c-454f-88b1-16bab3fa0e08" /> |
+| **비밀번호 찾기** | <img width="120px" height="300px" src="https://github.com/M-Moong/ID-NUMBER/assets/105577805/53c9fd50-f37f-4bb4-b009-0339777ed0da" /> | <img width="250px" height="350px" src="https://github.com/M-Moong/ID-NUMBER/assets/105577805/77921f4f-af36-40ec-accf-7a7281307c92" /> | <img width="500px" height="400px" src="https://github.com/M-Moong/ID-NUMBER/assets/105577805/fb12391f-e39b-40ea-a54e-0bdc6e62e8c6" /> |
+| **회원가입** | <img width="120px" height="300px" src="https://github.com/M-Moong/ID-NUMBER/assets/105577805/8be90aa3-f525-46f1-a4f5-559ae148030c" /> | <img width="250px" height="350px" src="https://github.com/M-Moong/ID-NUMBER/assets/105577805/5461dcee-5da7-45a6-b2f7-90ee5db8d1cc" /> | <img width="500px" height="400px" src="https://github.com/M-Moong/ID-NUMBER/assets/105577805/95de6c12-88da-4904-b061-7ddedfd94e09" /> |
+
+</br>
+
 # 🛠️ 기술 스택
 
 #### HTML
@@ -80,7 +93,13 @@ OTT 서비스 웹사이트를 반응형으로 구현합니다.
 
 #### CSS
 
-<img src="https://github.com/M-Moong/ID-NUMBER/assets/105577805/24ed357f-a194-4fb5-b1b4-00dc200d04d7" width="28px"/> <img src="https://img.shields.io/badge/Tailwind-06B6D4?style=for-the-badge&logo=Tailwind-CSS&logoColor=white" /> 
+<img src="https://github.com/M-Moong/ID-NUMBER/assets/105577805/bed6550a-a5b3-48e2-a6f7-b105c6bd3455" width="28px"/> <img src="https://img.shields.io/badge/CSS-1572B6?style=for-the-badge&logo=CSS3&logoColor=white" />&nbsp;&nbsp;&nbsp;<img src="https://github.com/M-Moong/ID-NUMBER/assets/105577805/24ed357f-a194-4fb5-b1b4-00dc200d04d7" width="28px"/> <img src="https://img.shields.io/badge/Tailwind-06B6D4?style=for-the-badge&logo=n&logoColor=white" />
+
+#### Package Manager
+<img src="https://github.com/M-Moong/ID-NUMBER/assets/105577805/98668e2c-d97a-45d0-8f75-e14084e75d09" width="28px"/> <img src="https://img.shields.io/badge/npm-CB3837?style=for-the-badge&logo=npm&logoColor=white" />
+
+#### Git
+<img src="https://github.com/M-Moong/ID-NUMBER/assets/105577805/91c4abfd-6805-45ee-8305-c72492bd1afc" width="28px"/> <img src="https://img.shields.io/badge/Git-E34F26?style=for-the-badge&logo=Git&logoColor=white" />&nbsp;&nbsp;&nbsp;<img src="https://github.com/M-Moong/ID-NUMBER/assets/105577805/748d9e80-bf75-4d9a-bee3-4815ecaeb810" width="28px"/> <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=GitHub&logoColor=white" /> 
 
 </br>
 
@@ -136,15 +155,15 @@ screens: {
 </section>
 ```
 - 섹션 내 콘텐츠를 ``ul`` 또는 ``ol``을 사용하여 리스트화 합니다.
-- ``ul``에 ``flex``를 사용하여 콘텐츠 리스트를 가로 정렬 합니다.
-- 리스트 내부의 콘텐츠 ``li``가 리스트 부모`` ul`` 또는 ``ol``의 범위를 벗어날 경우, 부모요소에 가려지면서 스크롤이 발생하도록 ``overflow-y-hidden`` 속성을 부여합니다.
+- ``ul`` 또는 ``ol``에 ``flex``를 사용하여 콘텐츠 리스트를 가로 정렬 합니다.
+- 리스트 내부의 콘텐츠 ``li``가 부모 ``ul`` 또는 ``ol``의 범위를 벗어날 경우, 부모요소에 가려지면서 스크롤이 발생하도록 ``overflow-y-hidden`` 속성을 부여합니다.
 - css 스타일링으로 화면상에서 스크롤바를 숨깁니다.
   ```css
   .scroll::-webkit-scrollbar {
     display: none;
   }
   ```
-- 각 콘텐츠의 크기가 부모의 ``flex box ``크기가 아닌 **뷰포트**에 따라 크기가 변화하도록 각 콘텐츠 ``li``에 ``shrink-0`` 속성을 부여하고``width`` 값을 vw단위로 지정합니다.
+- 각 콘텐츠의 크기가 부모의 ``flex box`` 크기가 아닌 **뷰포트**에 따라 크기가 변화하도록 각 콘텐츠 ``li``에 ``shrink-0`` 속성을 부여하고 ``width`` 값을 vw단위로 지정합니다.
 
 </br>
 
@@ -157,8 +176,8 @@ screens: {
 <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon" />
 ```
 - ``title``로 HTML 문서 전체의 제목을 나타냅니다.
-- ``meta``의 ``content``속성으로 검색 엔진에서 해당 사이트의 정보를 표시하고 검색 될 수 있도록 합니다.
-- ``link``의 ``shortcut icon``속성으로 파비콘을 설정하여 꾸며줍니다.
+- ``meta``의 ``content`` 속성으로 검색 엔진에서 해당 사이트의 정보를 표시하고 검색 될 수 있도록 합니다.
+- ``link``의 ``shortcut icon`` 속성으로 파비콘을 설정하여 꾸며줍니다.
 
 </br>
 
@@ -167,7 +186,7 @@ screens: {
 ![main_header_markup2](https://github.com/M-Moong/ID-NUMBER/assets/105577805/6efb15cb-bbd5-46e1-89ae-71ae254835d3)
 - ``header``의 마크업 순서는 키보드 사용자와 스크린리더 사용자의 접근성을 고려하여 로고 제목, 검색, 네비게이션의 순서로 합니다.
 - 시안의 순서로 바꾸어 주기 위해 ``header``에 ``flex``를 지정해주고 2번 ``ol``의 order를 2로 지정합니다.
-- 1번 로고는 클릭 시 메인 페이지로 이동할 수 있어야 하므로 ``a``의 background-image로 넣어주고 ``aria-label``로 대체 텍스트 "타잉"을 지정합니다., 페이지의 대제목이 될 수 있도록 ``h1``을 부모요소로 합니다.
+- 1번 로고는 클릭 시 메인 페이지로 이동할 수 있어야 하므로 ``a``의 background-image로 넣어주고 ``aria-label``로 대체 텍스트 "타잉"을 지정합니다. 페이지의 대제목이 될 수 있도록 ``h1``을 부모요소로 합니다.
   ```html 
   <h1>
     <a href="#" aria-label="타잉" class="bg-[url('/images/icon-logo.svg')] bg-no-repeat"></a>
@@ -318,9 +337,57 @@ screens: {
 # ℹ️ 코드 리뷰 |&nbsp;&nbsp; 로그인 관련 페이지
 ## 로그인
 
+![login_markup](https://github.com/M-Moong/ID-NUMBER/assets/105577805/cf33bad4-7b5e-4423-97e8-3f7116632452)
+- 로그인 페이지에는 서버로 전달되어야 하는 정보(아이디, 비밀번호 등)가 있기 때문에 ``form``태그로 마크업합니다.
+- 아이디와 비밀번호 ``input``에 ``label``을 지정하여 어떤 입력란인지에 대한 정보를 제공합니다. ``label``에는 ``sr-only`` 클래스를 지정하여 스크린리더는 읽되 화면에는 보이지 않도록 합니다.
+  ```html
+    <!-- 아이디 -->
+  <div class="w-[38vw] min-w-[288px] max-w-[732px] h-[5vw] min-h-[46px] max-h-[96px]">
+    <label for="userId" class="sr-only">아이디</label>
+    <input id="userId" name="userId" class=" form__input border p-4 outline-none rounded login__txt w-full h-full"
+      type="text" placeholder="아이디" required />
+    </div>
+  ```
+- ``border``를 지정하여 ``focus``를 받고 있는 요소를 알 수 있도록 합니다.
+  ```css
+  /* focus되면 빨간색 border 적용 */
+  .form__input:focus{
+  border: 2px solid #ff153c;
+  }
+  ``` 
+- ``input``에 ``required``속성을 주어 아이디와 비밀번호를 입력하지 않고 버튼을 누를 경우 메시지를 띄우도록 합니다.
+![image-2](https://github.com/M-Moong/ID-NUMBER/assets/105577805/c0aa8c30-795e-49de-bc2b-2421c3f6776f)
+
+- ``background-image``로 체크이미지를 표현할 경우 해당 이미지에는 탭할 수 없습니다. 키보드로도 접근할 수 있도록 ``input``요소와 ``background-image``의 크기와 위치를 조정합니다. 
+  </br>
+  ![image-1](https://github.com/M-Moong/ID-NUMBER/assets/105577805/46f78e4b-bb9d-4f14-8de7-89a9061c6b40)
+  ```html
+    <!-- 자동 로그인 --> 
+    <div class="flex relative mt-4 mb-10">
+      <input
+        class="auto-login appearance-none absolute top-1/2 -translate-y-1/2 w-[26px] h-[26px] checked:bg-checkbox-checked"
+        type="checkbox" id="autoLogin" name="autoLogin" />
+      <label for="autoLogin" class="pl-9 bg-checkbox-default bg-no-repeat bg-left text-lg">자동 로그인</label>
+    </div>
+  ```
+- ``border-right``를 지정하여 `아이디 찾기`와 `비밀번호 찾기` 사이의 구분선을 표현합니다.
+  
+  ![image-3](https://github.com/M-Moong/ID-NUMBER/assets/105577805/c0d45c17-ada2-4196-bdd7-8e108d667412)
+
 </br>
 
 ## 아이디 찾기
+- ``input``을 ``type="email"``로 지정하여 이메일 형식으로 입력하지 않는 경우 메시지를 보여줍니다.
+  
+  ![image-5](https://github.com/M-Moong/ID-NUMBER/assets/105577805/db54c6a5-751a-4632-91b5-c0f5e1493d0f)
+
+- ``before``와 ``after`` 가상요소를 사용하여 구분선을 표현합니다. 구분선이 가운데에 위치하도록 ``my-auto``를 지정합니다.
+  ```html
+  <!-- 구분선 -->
+        <div class="flex w-[38vw] min-w-[288px] max-w-[732px] my-24 text-base text-gray-700 align-middle before:content-[''] before:flex-grow before:h-[1px] before:bg-gray-700 before:my-auto before:mr-4
+        after:content-[''] after:flex-grow after:h-[1px] after:bg-gray-700 after:my-auto after:ml-4">또는</div>
+  ```
+  ![image-4](https://github.com/M-Moong/ID-NUMBER/assets/105577805/b26182dc-9d4e-43ee-bd3f-8527d8813a37)
 
 </br>
 
@@ -393,6 +460,12 @@ screens: {
 
 [Core Web Vitals](https://pagespeed.web.dev/?hl=ko)를 사용하여 웹사이트의 성능 최적화를 검사합니다.
 
+### 데스크톱
+![checker-desktop](https://github.com/M-Moong/ID-NUMBER/assets/105577805/fed2127d-abf8-4bbf-9d80-00a4ec5ad170)
+
+### 휴대전화
+![checker-mobile](https://github.com/M-Moong/ID-NUMBER/assets/105577805/8c3a00f4-1693-4248-86bf-677047c81774)
+
 </br>
 
 # 📝 프로젝트 한줄평
@@ -401,7 +474,7 @@ screens: {
 |:-------:|:----:|:------:|
 |   <img src="https://github.com/M-Moong/ID-NUMBER/assets/105577805/3960e861-c116-4266-a7dc-bd1b857c7708" width="40" height="40"/>   |   신승민(팀장)  | 프로젝트를 통해 HTML과 CSS에 대해 좀더 고민할수 있는 시간을 가져서 좋았습니다. 그리고 다른 사람들과 하는 협업에 대해 많이 배운것 같습니다.  |
 |   <img src="https://github.com/M-Moong/ID-NUMBER/assets/105577805/254b3756-eeea-42c4-ac37-36dd04a5fd95" width="40" height="40"/>   |   고명현 | UI 구현을 하며 아직 많이 부족하다는 것을 깨달았고, 그 부분을 좋은 팀원분들과 채워나갈 수 있는 좋은 시간이었습니다.  |
-|   <img src="https://github.com/M-Moong/ID-NUMBER/assets/105577805/98abe1db-4633-4706-9b1a-c60ef550d4dd" width="40" height="40"/>   |   김다인  | 함께 길을 찾는 재미 |
-|   <img src="https://github.com/M-Moong/ID-NUMBER/assets/105577805/eefd0654-e98c-4c08-a96b-fbf4c5be4d92" width="40" height="40"/>   |   신현주  | 한줄평  |
+|   <img src="https://github.com/M-Moong/ID-NUMBER/assets/105577805/98abe1db-4633-4706-9b1a-c60ef550d4dd" width="40" height="40"/>   |   김다인  | 함께 길을 찾는 즐거움. |
+|   <img src="https://github.com/M-Moong/ID-NUMBER/assets/105577805/eefd0654-e98c-4c08-a96b-fbf4c5be4d92" width="40" height="40"/>   |   신현주  | 프로젝트를 하며 협업에 대해 많이 알아가는 좋은 시간이었습니다.  |
 
 </br>
