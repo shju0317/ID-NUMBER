@@ -19,18 +19,19 @@ OTT 서비스 웹사이트를 반응형으로 구현합니다.
 
 1. [팀 소개 | 13조 주민등록번호](#-팀-소개--13조-주민등록번호)
 2. [개발 기간](#-개발-기간)
-3. [기술 스택](#️-기술-스택)
-4. [코딩 컨벤션](#-코딩-컨벤션)
-5. [코드 리뷰](#ℹ️-코드-리뷰--주요-이슈)
+3. [구현 페이지](#-구현-페이지)
+4. [기술 스택](#️-기술-스택)
+5. [코딩 컨벤션](#-코딩-컨벤션)
+6. [코드 리뷰](#ℹ️-코드-리뷰--주요-이슈)
    
    1. [주요 이슈](#ℹ️-코드-리뷰--주요-이슈)
    2. [메인 페이지](#ℹ️-코드-리뷰--메인-페이지)
    3. [로그인 관련 페이지](#ℹ️-코드-리뷰--로그인-관련-페이지)
    
-6. [문법 검사](#-문법-검사)
-7. [크로스 브라우징](#-크로스-브라우징)
-8. [성능 최적화](#️-성능-최적화)
-9. [프로젝트 한줄평](#-프로젝트-한줄평)
+7. [문법 검사](#-문법-검사)
+8. [크로스 브라우징](#-크로스-브라우징)
+9. [성능 최적화](#️-성능-최적화)
+10. [프로젝트 한줄평](#-프로젝트-한줄평)
 
 </br>
 
@@ -71,6 +72,18 @@ OTT 서비스 웹사이트를 반응형으로 구현합니다.
 
 </br>
 
+# 🖥️ 구현 페이지
+
+|   구분  | 모바일(320px) | 태블릿(768px) | 데스크톱(1920px) |
+|:--------:|:-------:|:---:|:-:|
+| **메인** | <img width="50px" height="300px" src="https://github.com/M-Moong/ID-NUMBER/assets/105577805/e1d17ffa-fbe9-4bc3-8d2c-abaef77d8759" /> | <img width="100px" height="400px" src="https://github.com/M-Moong/ID-NUMBER/assets/105577805/e2a56b35-7770-456a-8ca7-f7f82873a166" /> | <img width="150px" height="500px" src="https://github.com/M-Moong/ID-NUMBER/assets/105577805/dd6efcac-9750-4697-886e-bd3b9696fe2f" /> |
+| **로그인** | <img width="120px" height="300px" src="https://github.com/M-Moong/ID-NUMBER/assets/105577805/85f056bf-4bb5-4982-b99a-5f2c968878b4" /> | <img width="250px" height="350px" src="https://github.com/M-Moong/ID-NUMBER/assets/105577805/b156df2a-21ca-4339-9aa6-a890df451862" /> | <img width="500px" height="400px" src="https://github.com/M-Moong/ID-NUMBER/assets/105577805/4d636646-7ca2-4207-9cab-d16292296d73" /> |
+| **아이디 찾기** | <img width="120px" height="300px" src="https://github.com/M-Moong/ID-NUMBER/assets/105577805/28956956-81b9-476e-864d-66de12615b3c" /> | <img width="250px" height="350px" src="https://github.com/M-Moong/ID-NUMBER/assets/105577805/190ff84c-36ed-44b1-84b4-d9a03fd25fdf" /> | <img width="500px" height="400px" src="https://github.com/M-Moong/ID-NUMBER/assets/105577805/68056962-291c-454f-88b1-16bab3fa0e08" /> |
+| **비밀번호 찾기** | <img width="120px" height="300px" src="https://github.com/M-Moong/ID-NUMBER/assets/105577805/53c9fd50-f37f-4bb4-b009-0339777ed0da" /> | <img width="250px" height="350px" src="https://github.com/M-Moong/ID-NUMBER/assets/105577805/77921f4f-af36-40ec-accf-7a7281307c92" /> | <img width="500px" height="400px" src="https://github.com/M-Moong/ID-NUMBER/assets/105577805/fb12391f-e39b-40ea-a54e-0bdc6e62e8c6" /> |
+| **회원가입** | <img width="120px" height="300px" src="https://github.com/M-Moong/ID-NUMBER/assets/105577805/8be90aa3-f525-46f1-a4f5-559ae148030c" /> | <img width="250px" height="350px" src="https://github.com/M-Moong/ID-NUMBER/assets/105577805/5461dcee-5da7-45a6-b2f7-90ee5db8d1cc" /> | <img width="500px" height="400px" src="https://github.com/M-Moong/ID-NUMBER/assets/105577805/95de6c12-88da-4904-b061-7ddedfd94e09" /> |
+
+</br>
+
 # 🛠️ 기술 스택
 
 #### HTML
@@ -80,7 +93,10 @@ OTT 서비스 웹사이트를 반응형으로 구현합니다.
 
 #### CSS
 
-<img src="https://github.com/M-Moong/ID-NUMBER/assets/105577805/24ed357f-a194-4fb5-b1b4-00dc200d04d7" width="28px"/> <img src="https://img.shields.io/badge/Tailwind-06B6D4?style=for-the-badge&logo=Tailwind-CSS&logoColor=white" /> 
+<img src="https://github.com/M-Moong/ID-NUMBER/assets/105577805/24ed357f-a194-4fb5-b1b4-00dc200d04d7" width="28px"/> <img src="https://img.shields.io/badge/Tailwind-06B6D4?style=for-the-badge&logo=Tailwind-CSS&logoColor=white" />&nbsp;&nbsp;&nbsp;<img src="https://github.com/M-Moong/ID-NUMBER/assets/105577805/bed6550a-a5b3-48e2-a6f7-b105c6bd3455" width="28px"/> <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=CSS3&logoColor=white" /> 
+
+#### Git
+<img src="https://github.com/M-Moong/ID-NUMBER/assets/105577805/91c4abfd-6805-45ee-8305-c72492bd1afc" width="28px"/> <img src="https://img.shields.io/badge/Git-E34F26?style=for-the-badge&logo=Git&logoColor=white" />&nbsp;&nbsp;&nbsp;<img src="https://github.com/M-Moong/ID-NUMBER/assets/105577805/748d9e80-bf75-4d9a-bee3-4815ecaeb810" width="28px"/> <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=GitHub&logoColor=white" /> 
 
 </br>
 
@@ -403,7 +419,7 @@ screens: {
 |:-------:|:----:|:------:|
 |   <img src="https://github.com/M-Moong/ID-NUMBER/assets/105577805/3960e861-c116-4266-a7dc-bd1b857c7708" width="40" height="40"/>   |   신승민(팀장)  | 이렇게 좋으신분들을 일찍 만나지 못했지만 지금이라도 만나, 같이 작업할 수 있어서 행복했습니다.  |
 |   <img src="https://github.com/M-Moong/ID-NUMBER/assets/105577805/254b3756-eeea-42c4-ac37-36dd04a5fd95" width="40" height="40"/>   |   고명현 | 한줄평  |
-|   <img src="https://github.com/M-Moong/ID-NUMBER/assets/105577805/98abe1db-4633-4706-9b1a-c60ef550d4dd" width="40" height="40"/>   |   김다인  | 함께 길을 찾는 재미 |
+|   <img src="https://github.com/M-Moong/ID-NUMBER/assets/105577805/98abe1db-4633-4706-9b1a-c60ef550d4dd" width="40" height="40"/>   |   김다인  |  함께 방탈출 카페를 하는 것 같은 즐거웠습니다.  |
 |   <img src="https://github.com/M-Moong/ID-NUMBER/assets/105577805/eefd0654-e98c-4c08-a96b-fbf4c5be4d92" width="40" height="40"/>   |   신현주  | 한줄평  |
 
 </br>
