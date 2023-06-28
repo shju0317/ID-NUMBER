@@ -339,7 +339,7 @@ screens: {
   ```
 - ``border-right``를 지정하여 `아이디 찾기`와 `비밀번호 찾기` 사이의 구분선을 표현합니다.
   
-![image-3](https://github.com/M-Moong/ID-NUMBER/assets/105577805/c0d45c17-ada2-4196-bdd7-8e108d667412)
+  ![image-3](https://github.com/M-Moong/ID-NUMBER/assets/105577805/c0d45c17-ada2-4196-bdd7-8e108d667412)
 
 </br>
 
