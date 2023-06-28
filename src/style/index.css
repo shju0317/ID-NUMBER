@@ -51,6 +51,9 @@ h2 {
 .scroll::-webkit-scrollbar {
   display: none;
 }
+.scroll {
+  scrollbar-width:none;
+}
 
 /* 헤더 그림자 처리 */
 .header__gradient {

@@ -29,6 +29,7 @@ OTT 서비스 웹사이트를 반응형으로 구현합니다.
 6. [문법 검사](#-문법-검사)
 7. [크로스 브라우징](#-크로스-브라우징)
 8. [성능 최적화](#️-성능-최적화)
+9. [프로젝트 한줄평](#📝-프로젝트-한줄평)
 
 </br>
 
@@ -310,6 +311,16 @@ screens: {
 # ⚙️ 성능 최적화
 
 [Core Web Vitals](https://pagespeed.web.dev/?hl=ko)를 사용하여 웹사이트의 성능 최적화를 검사합니다.
+
 </br>
 
+# 📝 프로젝트 한줄평
 
+| 프로필 | 이름 | 한줄평 |
+|:-------:|:----:|:------:|
+|   <img src="https://github.com/M-Moong/ID-NUMBER/assets/105577805/3960e861-c116-4266-a7dc-bd1b857c7708" width="40" height="40"/>   |   신승민(팀장)  | 한줄평  |
+|   <img src="https://github.com/M-Moong/ID-NUMBER/assets/105577805/254b3756-eeea-42c4-ac37-36dd04a5fd95" width="40" height="40"/>   |   고명현 | 한줄평  |
+|   <img src="https://github.com/M-Moong/ID-NUMBER/assets/105577805/98abe1db-4633-4706-9b1a-c60ef550d4dd" width="40" height="40"/>   |   김다인  | 한줄평 |
+|   <img src="https://github.com/M-Moong/ID-NUMBER/assets/105577805/eefd0654-e98c-4c08-a96b-fbf4c5be4d92" width="40" height="40"/>   |   신현주  | 한줄평  |
+
+</br>
