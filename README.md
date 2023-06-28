@@ -136,15 +136,15 @@ screens: {
 </section>
 ```
 - 섹션 내 콘텐츠를 ``ul`` 또는 ``ol``을 사용하여 리스트화 합니다.
-- ``ul``에 ``flex``를 사용하여 콘텐츠 리스트를 가로 정렬 합니다.
-- 리스트 내부의 콘텐츠 ``li``가 리스트 부모`` ul`` 또는 ``ol``의 범위를 벗어날 경우, 부모요소에 가려지면서 스크롤이 발생하도록 ``overflow-y-hidden`` 속성을 부여합니다.
+- ``ul`` 또는 ``ol``에 ``flex``를 사용하여 콘텐츠 리스트를 가로 정렬 합니다.
+- 리스트 내부의 콘텐츠 ``li``가 부모 ``ul`` 또는 ``ol``의 범위를 벗어날 경우, 부모요소에 가려지면서 스크롤이 발생하도록 ``overflow-y-hidden`` 속성을 부여합니다.
 - css 스타일링으로 화면상에서 스크롤바를 숨깁니다.
   ```css
   .scroll::-webkit-scrollbar {
     display: none;
   }
   ```
-- 각 콘텐츠의 크기가 부모의 ``flex box ``크기가 아닌 **뷰포트**에 따라 크기가 변화하도록 각 콘텐츠 ``li``에 ``shrink-0`` 속성을 부여하고``width`` 값을 vw단위로 지정합니다.
+- 각 콘텐츠의 크기가 부모의 ``flex box`` 크기가 아닌 **뷰포트**에 따라 크기가 변화하도록 각 콘텐츠 ``li``에 ``shrink-0`` 속성을 부여하고 ``width`` 값을 vw단위로 지정합니다.
 
 </br>
 
@@ -157,8 +157,8 @@ screens: {
 <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon" />
 ```
 - ``title``로 HTML 문서 전체의 제목을 나타냅니다.
-- ``meta``의 ``content``속성으로 검색 엔진에서 해당 사이트의 정보를 표시하고 검색 될 수 있도록 합니다.
-- ``link``의 ``shortcut icon``속성으로 파비콘을 설정하여 꾸며줍니다.
+- ``meta``의 ``content`` 속성으로 검색 엔진에서 해당 사이트의 정보를 표시하고 검색 될 수 있도록 합니다.
+- ``link``의 ``shortcut icon`` 속성으로 파비콘을 설정하여 꾸며줍니다.
 
 </br>
 
@@ -167,7 +167,7 @@ screens: {
 ![main_header_markup2](https://github.com/M-Moong/ID-NUMBER/assets/105577805/6efb15cb-bbd5-46e1-89ae-71ae254835d3)
 - ``header``의 마크업 순서는 키보드 사용자와 스크린리더 사용자의 접근성을 고려하여 로고 제목, 검색, 네비게이션의 순서로 합니다.
 - 시안의 순서로 바꾸어 주기 위해 ``header``에 ``flex``를 지정해주고 2번 ``ol``의 order를 2로 지정합니다.
-- 1번 로고는 클릭 시 메인 페이지로 이동할 수 있어야 하므로 ``a``의 background-image로 넣어주고 ``aria-label``로 대체 텍스트 "타잉"을 지정합니다., 페이지의 대제목이 될 수 있도록 ``h1``을 부모요소로 합니다.
+- 1번 로고는 클릭 시 메인 페이지로 이동할 수 있어야 하므로 ``a``의 background-image로 넣어주고 ``aria-label``로 대체 텍스트 "타잉"을 지정합니다. 페이지의 대제목이 될 수 있도록 ``h1``을 부모요소로 합니다.
   ```html 
   <h1>
     <a href="#" aria-label="타잉" class="bg-[url('/images/icon-logo.svg')] bg-no-repeat"></a>
@@ -263,9 +263,55 @@ screens: {
 # ℹ️ 코드 리뷰 |&nbsp;&nbsp; 로그인 관련 페이지
 ## 로그인
 
+![login_markup](https://github.com/M-Moong/ID-NUMBER/assets/105577805/cf33bad4-7b5e-4423-97e8-3f7116632452)
+- 로그인 페이지에는 서버로 전달되어야 하는 정보(아이디, 비밀번호 등)가 있기 때문에 ``form``태그로 마크업합니다.
+- 아이디와 비밀번호 ``input``에 ``label``을 지정하여 어떤 입력란인지에 대한 정보를 제공합니다. ``label``에는 ``sr-only`` 클래스를 지정하여 스크린리더는 읽되 화면에는 보이지 않도록 합니다.
+  ```html
+    <!-- 아이디 -->
+  <div class="w-[38vw] min-w-[288px] max-w-[732px] h-[5vw] min-h-[46px] max-h-[96px]">
+    <label for="userId" class="sr-only">아이디</label>
+    <input id="userId" name="userId" class=" form__input border p-4 outline-none rounded login__txt w-full h-full"
+      type="text" placeholder="아이디" required />
+    </div>
+  ```
+- ``border``를 지정하여 ``focus``를 받고 있는 요소를 알 수 있도록 합니다.
+  ```css
+  /* focus되면 빨간색 border 적용 */
+  .form__input:focus{
+  border: 2px solid #ff153c;
+  }
+  ``` 
+- ``input``에 ``required``속성을 주어 아이디와 비밀번호를 입력하지 않고 버튼을 누를 경우 메시지를 띄우도록 합니다.
+![image-2](https://github.com/M-Moong/ID-NUMBER/assets/105577805/c0aa8c30-795e-49de-bc2b-2421c3f6776f)
+
+- ``background-image``로 체크이미지를 표현할 경우 해당 이미지에는 탭할 수 없습니다. 키보드로도 접근할 수 있도록 ``input``요소와 ``background-image``의 크기와 위치를 조정합니다. 
+  </br>
+  ![image-1](https://github.com/M-Moong/ID-NUMBER/assets/105577805/46f78e4b-bb9d-4f14-8de7-89a9061c6b40)
+  ```html
+    <!-- 자동 로그인 --> 
+    <div class="flex relative mt-4 mb-10">
+      <input
+        class="auto-login appearance-none absolute top-1/2 -translate-y-1/2 w-[26px] h-[26px] checked:bg-checkbox-checked"
+        type="checkbox" id="autoLogin" name="autoLogin" />
+      <label for="autoLogin" class="pl-9 bg-checkbox-default bg-no-repeat bg-left text-lg">자동 로그인</label>
+    </div>
+  ```
+- ``border-right``를 지정하여 `아이디 찾기`와 `비밀번호 찾기` 사이의 구분선을 표현합니다.
+![image-3](https://github.com/M-Moong/ID-NUMBER/assets/105577805/c0d45c17-ada2-4196-bdd7-8e108d667412)
+
 </br>
 
 ## 아이디 찾기
+- ``input``을 ``type="email"``로 지정하여 이메일 형식으로 입력하지 않는 경우 메시지를 보여줍니다.
+  ![image-5](https://github.com/M-Moong/ID-NUMBER/assets/105577805/db54c6a5-751a-4632-91b5-c0f5e1493d0f)
+
+- ``before``와 ``after`` 가상요소를 사용하여 구분선을 표현합니다. 구분선이 가운데에 위치하도록 ``my-auto``를 지정합니다.
+  ```html
+  <!-- 구분선 -->
+        <div class="flex w-[38vw] min-w-[288px] max-w-[732px] my-24 text-base text-gray-700 align-middle before:content-[''] before:flex-grow before:h-[1px] before:bg-gray-700 before:my-auto before:mr-4
+        after:content-[''] after:flex-grow after:h-[1px] after:bg-gray-700 after:my-auto after:ml-4">또는</div>
+  ```
+  ![image-4](https://github.com/M-Moong/ID-NUMBER/assets/105577805/b26182dc-9d4e-43ee-bd3f-8527d8813a37)
 
 </br>
 
