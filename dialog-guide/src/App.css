@@ -1,0 +1,21 @@
+.App {
+  width: clamp(320px, 96vw, 1024px);
+  margin-inline: auto;
+  padding-block: 80px;
+}
+
+.magazine {
+  position: relative;
+
+  & a {
+    position: absolute;
+    bottom: 32px;
+    right: 24px;
+    color: #fff;
+    font-size: clamp(24px, 6vw, 48px);
+    font-weight: 300;
+    line-height: 1;
+    text-shadow: 0 0 6px #00044;
+  }
+}
+
